@@ -32,6 +32,7 @@ float square_root(float n)
         }
         ig=ig1;
     }
+    
 }
 void output(float n,float sqrroot)
 {
