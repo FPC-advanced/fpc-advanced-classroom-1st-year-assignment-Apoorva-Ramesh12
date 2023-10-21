@@ -22,12 +22,16 @@ float input()
 }
 float square_root(float n)
 {
-    float root;
-    if(n>0)
+    float ig=1,ig1;
+    while(1)
     {
-        root=sqrt(n);
+        ig1=0.5*(ig+n/ig);
+        if(ig-ig1<0.000001)
+        {
+            return ig1;
+        }
+        ig=ig1;
     }
-    return root;
 }
 void output(float n,float sqrroot)
 {
