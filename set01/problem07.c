@@ -26,7 +26,7 @@ int sum_n_nos(int n)
     {
         sum=sum+i;
     }
-    return 0;
+    return sum;
 }
 void output(int n,int sum)
 {
