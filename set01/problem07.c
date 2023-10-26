@@ -7,7 +7,7 @@ int main()
 {
     int n;
     n=input_n();
-    int sum=0;
+    int sum;
     sum=sum_n_nos(n);
     output(n,sum);
     return 0;
