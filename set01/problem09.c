@@ -6,32 +6,30 @@ float square_root(float n);
 void output(float n, float sqrroot);
 int main()
 {
-    float n,sqrroot;
+    float n;
     n=input();
+    float sqrroot;
     sqrroot=square_root(n);
     output(n,sqrroot);
     return 0;
-
 }
 float input()
 {
-    float x;
-    printf("Enter the number: ");
-    scanf("%f",&x);
-    return x;
+    float n;
+    printf("Enter the number:");
+    scanf("%f",&n);
+    return n;
 }
 float square_root(float n)
 {
-    float steps,guess=n;
-    printf("Enter the numbe rof steps for approximation: ");
-    scanf("%f",&steps);
-    for(int i=0;i<steps;i++)
+    float guess=n;
+    for(int i=0;i<5;i++)
     {
         guess=0.5*(guess+n/guess);
-    }    
+    }
     return guess;
 }
-void output(float n,float sqrroot)
+void output(float n, float sqrroot)
 {
-    printf("Square root of %f is %.2f",n,sqrroot);
+    printf("The square root of %f is %f",n,sqrroot);
 }
