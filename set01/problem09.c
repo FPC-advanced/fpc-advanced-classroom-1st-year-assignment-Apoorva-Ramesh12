@@ -22,17 +22,14 @@ float input()
 }
 float square_root(float n)
 {
-    float ig=1,ig1;
-    while(1)
+    float steps,guess=n;
+    printf("Enter the numbe rof steps for approximation: ");
+    scanf("%f",&steps);
+    for(int i=0;i<steps;i++)
     {
-        ig1=0.5*(ig+n/ig);
-        if(ig-ig1<0.000001)
-        {
-            return ig1;
-        }
-        ig=ig1;
-    }
-    
+        guess=0.5*(guess+n/guess);
+    }    
+    return guess;
 }
 void output(float n,float sqrroot)
 {
