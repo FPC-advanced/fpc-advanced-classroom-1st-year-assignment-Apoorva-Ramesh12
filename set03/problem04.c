@@ -16,7 +16,7 @@ int input()
 {
     int n;
     printf("Enter the term you want to know in the series:");
-    scnf("%d",&n);
+    scanf("%d",&n);
     return n;
 }
 int find_fibo(int n)
