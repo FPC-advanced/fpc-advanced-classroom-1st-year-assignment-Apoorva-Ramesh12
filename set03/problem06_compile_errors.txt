@@ -68,3 +68,29 @@ Compilation started at 10/30/2023, 8:39:30 PM
 Compilation finished at 10/30/2023, 8:39:31 PM
 Compilation started at 10/30/2023, 9:00:13 PM
 Compilation finished at 10/30/2023, 9:00:13 PM
+Compilation started at 10/30/2023, 9:04:28 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'output':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:46:54: error: request for member 'substring' in something not a structure or union
+     printf("%s found at index %d in the string %s \n".substring,index,string);
+                                                      ^
+Compilation finished at 10/30/2023, 9:04:28 PM
+Compilation started at 10/30/2023, 9:04:57 PM
+Compilation finished at 10/30/2023, 9:04:57 PM
+Compilation started at 10/30/2023, 9:24:26 PM
+Compilation finished at 10/30/2023, 9:24:26 PM
+Compilation started at 10/30/2023, 9:26:35 PM
+Compilation finished at 10/30/2023, 9:26:35 PM
+Compilation started at 10/30/2023, 9:30:39 PM
+Compilation finished at 10/30/2023, 9:30:39 PM
+Compilation started at 10/30/2023, 9:39:37 PM
+Compilation finished at 10/30/2023, 9:39:37 PM
+Compilation started at 10/30/2023, 9:50:30 PM
+Compilation finished at 10/30/2023, 9:50:30 PM
+Compilation started at 10/30/2023, 9:57:37 PM
+Compilation finished at 10/30/2023, 9:57:37 PM
+Compilation started at 10/30/2023, 9:57:46 PM
+Compilation finished at 10/30/2023, 9:57:46 PM
+Compilation started at 10/30/2023, 9:58:03 PM
+Compilation finished at 10/30/2023, 9:58:04 PM
+Compilation started at 10/30/2023, 9:58:29 PM
+Compilation finished at 10/30/2023, 9:58:29 PM

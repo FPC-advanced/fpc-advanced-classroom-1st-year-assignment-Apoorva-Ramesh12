@@ -1,5 +1,6 @@
 //Write a program to find the index of a substring of a string
 #include<stdio.h>
+#include<string.h>
 void input_string(char* a, char* b);
 int sub_str_index(char* string, char* substring);
 void output(char *string, char *substring, int index);
@@ -15,37 +16,25 @@ int main()
 }
 void input_string(char* a, char* b)
 {
-    printf("Enter the string:");
+    int size;
+    printf("Enter the main string:");
     scanf("%s",a);
-    printf("Enter the substring: ");
+    printf("Enter the substring:");
     scanf("%s",b);
 }
 int sub_str_index(char* string, char* substring)
 {
-   int string_length=0,sub_length=0,i=0,j=0;
-   for(string_length=0;string[string_length];string_length++);
-   for(sub_length=0;substring[sub_length];sub_length++);
-    for(int i=0;i<=string_length-sub_length;i++)
+    int index,i,j;
+    while(string[i]!='\0')
     {
-        for(int j=0;j<sub_length;j++)
+        if(string[i]==substring[0])
         {
-            if(string[i+j]!=substring[j])
-            break;
+            index=i;
         }
     }
-    if(j==sub_length)
-    {
-        return i;
-    }
-    return -1;
+    return index;
 }
 void output(char *string, char *substring, int index)
 {
-    if(index!=-1)
-    {
-    printf("%s found at index %d in the string %s \n".substring,index,string);
-    }
-    else{
-        printf("'%s' not found in the string '%s'.\n",substring,string);
-    }
+    printf("The index of %s in %s is %d",substring,string,index);
 }
