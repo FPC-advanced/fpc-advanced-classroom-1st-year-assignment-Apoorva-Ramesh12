@@ -20,3 +20,10 @@ Transcript started, output file is c:\Users\AP\github-classroom\FPC-advanced\fpc
 PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12> gdb ./problem09
 
 PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12> cd set01
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01> gdb ./problem09
+lassroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem09.exe
+[New Thread 19596.0x6dfc]
+[New Thread 19596.0x5ebc]
+Enter the number:361
+The square root of 361.000000 is 20.351196[Inferior 1 (process 19596) exited normally]
+(gdb) q
