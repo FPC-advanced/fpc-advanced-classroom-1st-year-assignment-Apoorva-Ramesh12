@@ -21,12 +21,12 @@ int input()
 }
 int find_fibo(int n)
 {
-    int a=0,b=1,temp;
+    int a=0,b=1,next;
     for(int i=2;i<=n;i++)
     {
-        temp=a+b;
+        next=a+b;
         a=b;
-        b=temp;
+        b=next;
     }
     return b;
 }
