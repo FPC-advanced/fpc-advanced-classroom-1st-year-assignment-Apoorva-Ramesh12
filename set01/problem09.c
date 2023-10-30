@@ -23,6 +23,7 @@ float input()
 float square_root(float n)
 {
     float guess=n;
+    
     for(int i=0;i<6;i++)
     {
         guess=0.5*(guess+n/guess);
