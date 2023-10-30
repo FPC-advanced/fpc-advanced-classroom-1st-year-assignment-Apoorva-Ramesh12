@@ -29,3 +29,101 @@ PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 
 PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem05.exe
 GCD of 34 and 26 is 2
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem05.c" -o "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem05.exe" 2>&1
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem05.exe
+GCD of 576 and 1024 is 64
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> Start-Transcript -Path "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt"
+Transcript started, output file is c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> Stop-Transcript
+Transcript stopped, output file is C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> *git add .
+*git : The term '*git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ *git add .
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (*git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+*git : The term '*git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ *git add .
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (*git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git commit -m "committed 10/30/2023, 10:00:28 AM"
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git push
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> Start-Transcript -Path "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt"
+Transcript started, output file is c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c" -o "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.exe" 2>&1
+gcc :
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c: In
+function 'main':
+At line:1 char:1
++ gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\AP\git...unction 'main'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10:1
+1: warning: passing argument 1 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+           ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:4:6:
+ note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2);
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10:1
+5: warning: passing argument 2 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+               ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:4:6:
+ note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2);
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10:1
+9: warning: passing argument 3 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+                   ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:4:6:
+ note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2);
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10:2
+3: warning: passing argument 4 of 'input' from incompatible pointer type [-Wincompatible-pointer-types]
+     input(&x1,&y1,&x2,&y2);
+                       ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:4:6:
+ note: expected 'float *' but argument is of type 'int *'
+ void input(float *x1, float *y1, float *x2, float *y2);
+      ^~~~~
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.exe
+The distance between 0,1074266112 and 0,1073741824 is 0
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c" -o "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.exe" 2>&1
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.exe
+The distance between 3.000000,2.000000 and 9.000000,7.000000 is 7.810250
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git add .
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git commit -m "committed 10/30/2023, 10:04:59 AM"
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git push
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> Stop-Transcript
+Transcript stopped, output file is C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01_session.txt
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git add .
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git commit -m "committed 10/30/2023, 10:05:04 AM"
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> git push
+
+PS C:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231030101652
+**********************
