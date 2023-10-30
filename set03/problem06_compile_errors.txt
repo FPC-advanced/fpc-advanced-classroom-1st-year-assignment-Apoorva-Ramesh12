@@ -1,0 +1,29 @@
+Compilation started at 10/30/2023, 8:34:19 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:8:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(a,b);
+     ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'input_string':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:17:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Enter the string:");
+     ^~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:17:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:17:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:18:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+     scanf("%s",a);
+     ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:18:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:18:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:27:21: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         if(string[i]=substring)
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'output':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:36:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("The index of %s is %d in %s",substring,index,string);
+     ^~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:36:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+C:\Users\AP\AppData\Local\Temp\ccom27Ch.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem06.c:8: undefined reference to `input'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 8:34:19 PM
