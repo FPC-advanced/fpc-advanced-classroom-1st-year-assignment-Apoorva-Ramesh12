@@ -94,3 +94,21 @@ Compilation started at 10/30/2023, 9:58:03 PM
 Compilation finished at 10/30/2023, 9:58:04 PM
 Compilation started at 10/30/2023, 9:58:29 PM
 Compilation finished at 10/30/2023, 9:58:29 PM
+Compilation started at 10/30/2023, 10:00:05 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:35:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 10/30/2023, 10:00:05 PM
+Compilation started at 10/30/2023, 10:00:13 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:35:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 10/30/2023, 10:00:13 PM
+Compilation started at 10/30/2023, 10:00:25 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:35:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 10/30/2023, 10:00:25 PM

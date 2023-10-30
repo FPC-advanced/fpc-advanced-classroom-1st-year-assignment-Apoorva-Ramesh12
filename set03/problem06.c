@@ -31,6 +31,7 @@ int sub_str_index(char* string, char* substring)
         {
             index=i;
         }
+        i++
     }
     return index;
 }
