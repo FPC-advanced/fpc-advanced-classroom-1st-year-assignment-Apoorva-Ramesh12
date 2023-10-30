@@ -62,3 +62,5 @@ C:\Users\AP\AppData\Local\Temp\ccOwLnMA.o: In function `main':
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem06.c:9: undefined reference to `input'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/30/2023, 8:36:04 PM
+Compilation started at 10/30/2023, 8:36:18 PM
+Compilation finished at 10/30/2023, 8:36:19 PM
