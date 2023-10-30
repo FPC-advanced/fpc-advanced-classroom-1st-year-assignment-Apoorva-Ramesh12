@@ -43,7 +43,7 @@ void output(char *string, char *substring, int index)
 {
     if(index!=-1)
     {
-    printf("'%s' found at index %d in the string %s \n".substring,index,string);
+    printf("%s found at index %d in the string %s \n".substring,index,string);
     }
     else{
         printf("'%s' not found in the string '%s'.\n",substring,string);
