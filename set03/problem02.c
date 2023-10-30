@@ -39,9 +39,9 @@ void output(float x1, float y1, float x2, float y2,float x3, float y3, int resul
 {
     if(result==1)
     {
-        printf("The 3 points can form a triangle.")
+        printf("The 3 points can form a triangle.");
     }
     else{
-        printf("The 3 points cannot form a triangle.")
+        printf("The 3 points cannot form a triangle.");
     }
 }
