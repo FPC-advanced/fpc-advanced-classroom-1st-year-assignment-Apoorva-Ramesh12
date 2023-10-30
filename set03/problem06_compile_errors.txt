@@ -40,3 +40,25 @@ C:\Users\AP\AppData\Local\Temp\ccCwarxG.o: In function `main':
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem06.c:9: undefined reference to `input'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/30/2023, 8:34:56 PM
+Compilation started at 10/30/2023, 8:35:50 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:9:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(a,b);
+     ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:28:21: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         if(string[i]=substring)
+                     ^
+C:\Users\AP\AppData\Local\Temp\ccyw0tJO.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem06.c:9: undefined reference to `input'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 8:35:50 PM
+Compilation started at 10/30/2023, 8:36:04 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:9:5: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     input(a,b);
+     ^~~~~
+C:\Users\AP\AppData\Local\Temp\ccOwLnMA.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem06.c:9: undefined reference to `input'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 8:36:04 PM
