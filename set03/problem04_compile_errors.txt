@@ -1,0 +1,18 @@
+Compilation started at 10/30/2023, 12:40:49 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c: In function 'input':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c:19:5: warning: implicit declaration of function 'scnf' [-Wimplicit-function-declaration]
+     scnf("%d",&n);
+     ^~~~
+C:\Users\AP\AppData\Local\Temp\cc2eBbG8.o: In function `input':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem04.c:19: undefined reference to `scnf'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 12:40:49 PM
+Compilation started at 10/30/2023, 12:40:58 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c: In function 'input':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c:19:5: warning: implicit declaration of function 'scnf' [-Wimplicit-function-declaration]
+     scnf("%d",&n);
+     ^~~~
+C:\Users\AP\AppData\Local\Temp\cc6flcaF.o: In function `input':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set03/problem04.c:19: undefined reference to `scnf'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 12:40:58 PM
