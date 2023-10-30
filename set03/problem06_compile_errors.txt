@@ -112,3 +112,29 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
      }
      ^
 Compilation finished at 10/30/2023, 10:00:25 PM
+Compilation started at 10/30/2023, 10:00:57 PM
+Compilation finished at 10/30/2023, 10:00:58 PM
+Compilation started at 10/30/2023, 10:03:31 PM
+Compilation finished at 10/30/2023, 10:03:31 PM
+Compilation started at 10/30/2023, 10:04:35 PM
+Compilation finished at 10/30/2023, 10:04:35 PM
+Compilation started at 10/30/2023, 10:13:02 PM
+Compilation finished at 10/30/2023, 10:13:02 PM
+Compilation started at 10/30/2023, 10:14:44 PM
+Compilation finished at 10/30/2023, 10:14:45 PM
+Compilation started at 10/30/2023, 10:16:33 PM
+Compilation finished at 10/30/2023, 10:16:34 PM
+Compilation started at 10/30/2023, 10:17:05 PM
+Compilation finished at 10/30/2023, 10:17:05 PM
+Compilation started at 10/30/2023, 10:22:33 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c: In function 'sub_str_index':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:56:1: error: expected declaration or statement at end of input
+ }
+ ^
+Compilation finished at 10/30/2023, 10:22:33 PM
+Compilation started at 10/30/2023, 10:23:15 PM
+Compilation finished at 10/30/2023, 10:23:15 PM
+Compilation started at 10/30/2023, 10:24:58 PM
+Compilation finished at 10/30/2023, 10:24:58 PM
+Compilation started at 10/30/2023, 10:25:40 PM
+Compilation finished at 10/30/2023, 10:25:41 PM
