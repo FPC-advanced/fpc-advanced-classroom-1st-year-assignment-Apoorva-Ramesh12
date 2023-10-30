@@ -22,15 +22,21 @@ void input_string(char* a, char* b)
 }
 int sub_str_index(char* string, char* substring)
 {
-    int index;
-    for(int i=0,j=0;string[i]!='\0' && substring[j]!='\0';i++,j++)
+   int string_length=0,sub_length=0;
+   for(string_length=0;string[string_length];string_length++);
+   for(sub_length=0;substring[sub_length];sub_length++);
+    for(int i=0;i<=string_length-sub_length;i++)
     {
-        if(string[i]==substring[j])
+        for(int j=0;j<sub_length;j++)
         {
-            index=string[i];
+            if(string[i+j]!=substring[j])
+            break;
         }
     }
-    return index;
+    if(j==sub_length)
+    {
+        return i;
+    }
 }
 void output(char *string, char *substring, int index)
 {
