@@ -37,7 +37,7 @@ float square_root(float n)
     break;
     guess=sqrroot;
    }
-   return root;
+   return sqrroot;
 }
 void output(float n, float sqrroot)
 {

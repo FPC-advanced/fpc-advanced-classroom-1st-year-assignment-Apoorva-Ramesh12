@@ -7,3 +7,12 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
            ^~~~
 c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:40:11: note: each undeclared identifier is reported only once for each function it appears in
 Compilation finished at 10/31/2023, 11:34:29 AM
+Compilation started at 10/31/2023, 11:34:38 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c: In function 'square_root':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:40:11: error: 'root' undeclared (first use in this function)
+    return root;
+           ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:40:11: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 10/31/2023, 11:34:38 AM
+Compilation started at 10/31/2023, 11:34:49 AM
+Compilation finished at 10/31/2023, 11:34:49 AM
