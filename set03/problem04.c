@@ -32,5 +32,5 @@ int find_fibo(int n)
 }
 void output(int n, int fibo)
 {
-    printf("The %dth number is %d",n,fibo);
+    printf("The %dth number in the fibonacci series is %d",n,fibo);
 }

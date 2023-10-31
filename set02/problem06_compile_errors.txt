@@ -1,25 +1,2 @@
-Compilation started at 10/30/2023, 12:54:32 PM
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c: In function 'main':
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:10:18: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
-     input_string(&a);
-                  ^
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:4:6: note: expected 'char *' but argument is of type 'char (*)[100]'
- void input_string(char *a);
-      ^~~~~~~~~~~~
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:12:5: warning: implicit declaration of function 'str_rev' [-Wimplicit-function-declaration]
-     str_rev(&str,&rev_str);
-     ^~~~~~~
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:13:12: warning: passing argument 1 of 'output' from incompatible pointer type [-Wincompatible-pointer-types]
-     output(&a,&rev_str);
-            ^
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:6:6: note: expected 'char *' but argument is of type 'char (*)[100]'
- void output(char *a, char *reverse_a);
-      ^~~~~~
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c: At top level:
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:22:6: warning: conflicting types for 'str_rev'
- void str_rev(char *str, char *rev_str)
-      ^~~~~~~
-c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:12:5: note: previous implicit declaration of 'str_rev' was here
-     str_rev(&str,&rev_str);
-     ^~~~~~~
-Compilation finished at 10/30/2023, 12:54:32 PM
+Compilation started at 10/31/2023, 12:24:29 PM
+Compilation finished at 10/31/2023, 12:24:30 PM
