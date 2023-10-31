@@ -22,26 +22,21 @@ float input()
 }
 float square_root(float n)
 {
-    float guess=n;
-    float sqrroot=1;
-   while(sqrroot==1)
+    float guess=n/2;
+    float sqrroot=0;
    {
-  float guess = n / 2.0; // Start with an initial guess
-    float root = 0.0;
-
     while (1) {
-        root = 0.5 * (guess + n / guess); // Heron's method iteration
-        if (root == guess) {
-            // Check if the guess has stabilized, indicating convergence
+        sqrroot = 0.5 * (guess + n / guess); 
+        if (sqrroot == guess)
             break;
-        }
-        guess = root;
+        
+        guess = sqrroot;
+                }
+                return sqrroot;
     }
-
-    return root;
-    }
+    
 }
 void output(float n, float sqrroot)
 {
-    printf("The square root of %f is %f",n,sqrroot);
+    printf("The square root of %.2f is %.6ff",n,sqrroot);
 }
