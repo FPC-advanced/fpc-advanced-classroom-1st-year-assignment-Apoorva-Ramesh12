@@ -23,12 +23,21 @@ float input()
 float square_root(float n)
 {
     float guess=n;
-    
-    for(int i=0;i<6;i++)
+    float sqrroot=1;
+   while(sqrroot==1)
+   {
+    sqrroot=0.5*(guess+n/guess);
+    float diff;
+    diff=sqrroot-guess;
+    if(diff<0)
     {
-        guess=0.5*(guess+n/guess);
+        diff=-diff;
     }
-    return guess;
+    if(diff<sqrroot)
+    break;
+    guess=sqrroot;
+   }
+   return root;
 }
 void output(float n, float sqrroot)
 {
