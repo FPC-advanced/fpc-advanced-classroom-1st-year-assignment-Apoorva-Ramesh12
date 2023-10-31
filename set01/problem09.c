@@ -38,5 +38,5 @@ float square_root(float n)
 }
 void output(float n, float sqrroot)
 {
-    printf("The square root of %.2f is %.6ff",n,sqrroot);
+    printf("The square root of %.2f is %.6f",n,sqrroot);
 }
