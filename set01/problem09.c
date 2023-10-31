@@ -26,18 +26,20 @@ float square_root(float n)
     float sqrroot=1;
    while(sqrroot==1)
    {
-    sqrroot=0.5*(guess+n/guess);
-    float diff;
-    diff=sqrroot-guess;
-    if(diff<0)
-    {
-        diff=-diff;
+  float guess = n / 2.0; // Start with an initial guess
+    float root = 0.0;
+
+    while (1) {
+        root = 0.5 * (guess + n / guess); // Heron's method iteration
+        if (root == guess) {
+            // Check if the guess has stabilized, indicating convergence
+            break;
+        }
+        guess = root;
     }
-    if(diff<sqrroot)
-    break;
-    guess=sqrroot;
-   }
-   return sqrroot;
+
+    return root;
+    }
 }
 void output(float n, float sqrroot)
 {
