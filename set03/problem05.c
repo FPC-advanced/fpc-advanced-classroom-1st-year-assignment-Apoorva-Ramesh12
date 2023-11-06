@@ -25,14 +25,14 @@ void init_array(int n, int a[n])
 {
     for(int i=2;i<=n;i++)
     {
-        a[n]=i;
+        a[i]=i;
     }
 }
 void erotosthenes_sieve(int n, int a[n])
 {
     for(int i=2;i<=n;i++)
     {
-        if(n%i==0)
+        if(a[i]%i==0)
         {
             a[i]=0;
         }
