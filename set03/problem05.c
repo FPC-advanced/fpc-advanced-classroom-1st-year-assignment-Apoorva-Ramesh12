@@ -45,7 +45,7 @@ void output(int n, int a[n])
 {
     for(int i=2;i<=n;i++)
     {
-        if(a[i]!=0)
+        while(a[i]!=0)
         {
             printf("%d\n",a[i]);
         }
