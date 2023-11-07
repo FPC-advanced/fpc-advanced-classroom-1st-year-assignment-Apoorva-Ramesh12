@@ -34,7 +34,10 @@ void erotosthenes_sieve(int n, int a[n])
     {
         if(a[i]%i==0)
         {
-            
+            for(int j=2;j<=n;j++)
+            {
+                a[j]=0;
+            }
         }
     }
 }
