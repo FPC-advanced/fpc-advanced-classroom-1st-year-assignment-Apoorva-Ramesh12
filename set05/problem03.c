@@ -20,6 +20,23 @@ int main()
     output(c);
     return 0;
 }
+Camel input()
+{
+    Camel c;
+    printf("Enter the stomach radius of the camel:");
+    scanf("%f",&c.radius);
+    printf("Enter the height of the camel:");
+    scanf("%f",&c.height);
+    printf("Enter the length radius of the camel:");
+    scanf("%f",&c.length);
+}
+float find_weight(Camel c)
+{
+    const float pi=3.14159265;
+    c.weight=pi*pow(c.radius,3)*sqrt(c.height*c.length);
+    return c;
+
+}
 
 
 
