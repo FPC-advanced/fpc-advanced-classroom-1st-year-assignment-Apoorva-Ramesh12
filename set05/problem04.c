@@ -26,4 +26,34 @@ void input_camel_details(float *radius, float *height, float *length)
     printf("Enter the length of the camel:");
     scanf("%f",length);
 }
-
+int find_mood(float radius, float height, float length)
+{
+    int mood;
+    if(radius<height && radius<length)
+    {
+        mood=1;
+    }
+    else if(height<length && height<radius)
+    {
+        mood=2;
+    }
+    else
+    {
+        mood=3;
+    }
+    return mood;
+}
+void output(float radius, float height, float length, int mood)
+{
+    if(mood==1)
+    {
+        printf("Tha camel is sick!");
+    }
+    else if(mood==2)
+    {
+        printf("The camel is happy!");
+    }
+    else{
+        printf("The camel is tensed.");
+    }
+}
