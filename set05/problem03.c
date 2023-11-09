@@ -34,8 +34,11 @@ float find_weight(Camel c)
 {
     const float pi=3.14159265;
     c.weight=pi*pow(c.radius,3)*sqrt(c.height*c.length);
-    return c;
-
+    return c.weight;
+}
+void output(Camel c)
+{
+    printf("The weight of the camel with\n Radius:%.2f\n Height:%.2f\n Length:%.2f\n is %.4f",c.radius,c.height,c.length,c.weight);")
 }
 
 
