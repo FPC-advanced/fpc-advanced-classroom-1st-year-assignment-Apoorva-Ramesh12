@@ -1,0 +1,40 @@
+Compilation started at 11/10/2023, 12:16:54 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c: In function 'output':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:41:132: warning: missing terminating " character
+     printf("The weight of the camel with\n Radius:%.2f\n Height:%.2f\n Length:%.2f\n is %.4f",c.radius,c.height,c.length,c.weight);")
+                                                                                                                                    ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:41:132: error: missing terminating " character
+     printf("The weight of the camel with\n Radius:%.2f\n Height:%.2f\n Length:%.2f\n is %.4f",c.radius,c.height,c.length,c.weight);")
+                                                                                                                                    ^~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c: At top level:
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:46:9: error: redefinition of 'struct camel'
+  struct camel {
+         ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:6:9: note: originally defined here
+  struct camel {
+         ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:50:22: error: conflicting types for 'Camel'
+ typedef struct camel Camel;
+                      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:10:22: note: previous declaration of 'Camel' was here
+ typedef struct camel Camel;
+                      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:52:7: error: conflicting types for 'input'
+ Camel input();
+       ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:23:7: note: previous definition of 'input' was here
+ Camel input()
+       ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:53:6: error: conflicting types for 'find_weight'
+ void find_weight(Camel *c); //passing address variable
+      ^~~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:33:7: note: previous definition of 'find_weight' was here
+ float find_weight(Camel c)
+       ^~~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:54:6: error: conflicting types for 'output'
+ void output(Camel c);
+      ^~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem03.c:39:6: note: previous definition of 'output' was here
+ void output(Camel c)
+      ^~~~~~
+Compilation finished at 11/10/2023, 12:16:54 AM
