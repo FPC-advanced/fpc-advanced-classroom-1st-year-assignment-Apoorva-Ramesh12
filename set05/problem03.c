@@ -33,8 +33,7 @@ Camel input()
 float find_weight(Camel c)
 {
     const float pi=3.14159265;
-    c.weight=pi*pow(c.radius,3)*sqrt(c.height*c.length);
-    return c.weight;
+    return pi*pow(c.radius,3)*sqrt(c.height*c.length);
 }
 void output(Camel c)
 {
