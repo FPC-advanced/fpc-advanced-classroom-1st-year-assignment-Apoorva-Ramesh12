@@ -38,17 +38,17 @@ float find_weight(Camel c)
 }
 void output(Camel c)
 {
-    printf("The weight of the camel with\n Radius:%.2f\n Height:%.2f\n Length:%.2f\n is %.4f",c.radius,c.height,c.length,c.weight);")
+    printf("The weight of the camel with\n Radius:%.2f\n Height:%.2f\n Length:%.2f\n is %.4f",c.radius,c.height,c.length,c.weight);
 }
 
 
 
- struct camel {
-	float radius, height, length,weight;
-};
+//  struct camel {
+// 	float radius, height, length,weight;
+// };
 
-typedef struct camel Camel;
+// typedef struct camel Camel;
 
-Camel input();
-void find_weight(Camel *c); //passing address variable
-void output(Camel c);
+// Camel input();
+// void find_weight(Camel *c); //passing address variable
+// void output(Camel c);
