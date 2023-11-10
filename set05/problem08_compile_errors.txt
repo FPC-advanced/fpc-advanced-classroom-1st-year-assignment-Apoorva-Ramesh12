@@ -48,3 +48,45 @@ Compilation started at 11/10/2023, 2:29:47 PM
 Compilation finished at 11/10/2023, 2:29:47 PM
 Compilation started at 11/10/2023, 2:30:40 PM
 Compilation finished at 11/10/2023, 2:30:40 PM
+Compilation started at 11/10/2023, 2:35:13 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:23:13: error: incompatible type for argument 2 of 'input'
+     input(n,c,&truck_weight);
+             ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:13:6: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ void input(int n, Camel c[n], float *truck_weight);
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:24:25: error: incompatible type for argument 2 of 'find_camel_weight'
+     find_camel_weight(n,c);
+                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:14:6: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ void find_camel_weight(int n, Camel c[n]);
+      ^~~~~~~~~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:26:41: error: incompatible type for argument 2 of 'compute_total_weight'
+     total_weight=compute_total_weight(n,c,truck_weight);
+                                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:15:7: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ float compute_total_weight(int n, Camel c[n], float truck_weight);
+       ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 11/10/2023, 2:35:13 PM
+Compilation started at 11/10/2023, 2:35:21 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:23:13: error: incompatible type for argument 2 of 'input'
+     input(n,c,&truck_weight);
+             ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:13:6: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ void input(int n, Camel c[n], float *truck_weight);
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:24:25: error: incompatible type for argument 2 of 'find_camel_weight'
+     find_camel_weight(n,c);
+                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:14:6: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ void find_camel_weight(int n, Camel c[n]);
+      ^~~~~~~~~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:26:41: error: incompatible type for argument 2 of 'compute_total_weight'
+     total_weight=compute_total_weight(n,c,truck_weight);
+                                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set05\problem08.c:15:7: note: expected 'Camel * {aka struct _camel *}' but argument is of type 'Camel {aka struct _camel}'
+ float compute_total_weight(int n, Camel c[n], float truck_weight);
+       ^~~~~~~~~~~~~~~~~~~~
+Compilation finished at 11/10/2023, 2:35:21 PM
