@@ -2,9 +2,16 @@
 #include<stdio.h>
 #include<math.h>
 void input(int *num1, int *den1, int *num2, int *den2);
-int find_gcd(int a, int b);
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
+int find_gcd(int a, int b)
+{
+    if(a==0)
+    {
+        return b;
+    }
+    return gcd(b%a,a);
+    }
 int main()
 {
     int num1,den1,num2,den2;
@@ -21,14 +28,7 @@ void input(int *num1, int *den1, int *num2, int *den2)
     printf("Enter the nummerator and denominator of the second fraction:");
     scanf("%d %d",num2,den2);
 }
-int find_gcd(int a, int b)
-{
-    if(a==0)
-    {
-        return b;
-    }
-    return gcd(b%a,a);
-    }
+
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     *res_num=(den2*num1)+(den1*num2);

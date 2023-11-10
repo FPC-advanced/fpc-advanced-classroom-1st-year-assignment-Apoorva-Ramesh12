@@ -28,3 +28,16 @@ c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assign
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:39: undefined reference to `gcd'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/10/2023, 3:58:18 PM
+Compilation started at 11/10/2023, 3:59:08 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c: In function 'find_gcd':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:13:12: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     return gcd(b%a,a);
+            ^~~
+C:\Users\AP\AppData\Local\Temp\ccSKrB1H.o: In function `find_gcd':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:13: undefined reference to `gcd'
+C:\Users\AP\AppData\Local\Temp\ccSKrB1H.o: In function `add':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:36: undefined reference to `gcd'
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:38: undefined reference to `gcd'
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:39: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/10/2023, 3:59:08 PM
