@@ -17,6 +17,7 @@ void output(float total_weight);
 int main()
 {
     int n;
+    printf("Hello world.");
     Camel c[n];
     float truck_weight;
     input(n,c,&truck_weight);
