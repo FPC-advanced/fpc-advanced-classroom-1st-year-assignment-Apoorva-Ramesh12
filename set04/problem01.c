@@ -33,7 +33,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     *res_num=(den2*num1)+(den1*num2);
     *res_den=den1*den2;
-    int gcd_fract=gcd(res_num,res_den);
+    int gcd_fract=gcd(*res_num,*res_den);
     if(gcd_fract!=1)
     {
         *res_num=*res_num/gcd_fract;
