@@ -22,7 +22,7 @@ int main()
     input(n,c,&truck_weight);
     find_camel_weight(n,c);
     float total_weight;
-    total_weight=compute_total_weight(n,c);
+    total_weight=compute_total_weight(n,c,truck_weight);
     output(total_weight);
     return 0;
 }
