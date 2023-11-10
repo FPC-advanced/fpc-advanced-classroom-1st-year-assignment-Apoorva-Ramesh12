@@ -5,7 +5,7 @@
 
 // total_truck_weight = truck_weight + weight_of_camels
 #include<stdio.h>
-ypedef struct _camel {
+typedef struct _camel {
     float radius, height, length, weight;
 } Camel;
 
