@@ -41,3 +41,42 @@ c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assign
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem01.c:39: undefined reference to `gcd'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/10/2023, 3:59:08 PM
+Compilation started at 11/10/2023, 3:59:40 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c: In function 'add':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:12: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     if(gcd(res_num,res_den)!=1)
+            ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:20: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     if(gcd(res_num,res_den)!=1)
+                    ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:38:31: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         *res_num=*res_num/gcd(res_num,res_den);
+                               ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:38:39: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         *res_num=*res_num/gcd(res_num,res_den);
+                                       ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:39:31: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         *res_den=*res_num/gcd(res_num,res_den);
+                               ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:39:39: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+         *res_den=*res_num/gcd(res_num,res_den);
+                                       ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+Compilation finished at 11/10/2023, 3:59:40 PM

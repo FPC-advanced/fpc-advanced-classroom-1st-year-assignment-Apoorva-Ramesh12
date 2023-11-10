@@ -4,7 +4,7 @@
 void input(int *num1, int *den1, int *num2, int *den2);
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den);
-int find_gcd(int a, int b)
+int gcd(int a, int b)
 {
     if(a==0)
     {
