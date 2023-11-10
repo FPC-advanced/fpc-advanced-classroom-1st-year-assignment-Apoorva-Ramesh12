@@ -37,7 +37,7 @@ void input_coefficients(int n, float a[n])
 }
 float input_x()
 {
-    float x;
+    float x; 
     printf("Enter the value of x:");
     scanf("%f",&x);
     return x;
