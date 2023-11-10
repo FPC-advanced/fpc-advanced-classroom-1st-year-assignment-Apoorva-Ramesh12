@@ -31,6 +31,7 @@ void input_coefficients(int n, float a[n])
     printf("Enter the co-efficients of the polynomial:");
     for(int i=0;i<=n;i++)
     {
+        printf("Enter the co-efficient for a[%d]:",i);
         scanf("%f",&a[i]);
     }
 }
@@ -44,9 +45,9 @@ float input_x()
 float evaluate_polynomial(int n,float a[n],float x)
 {
     float result; //result=a[n]
-    for(int i=n-1;i>=0;i++)
+    for(int i=n;i>=0;i--)
     {
-        result=result*x+a[i];
+        result=(result+a[i])*x;
     }
     return result;
 }
