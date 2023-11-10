@@ -10,8 +10,6 @@ int main()
     int num1,den1,num2,den2;
     input(&num1,&den1,&num2,&den2);
     int res_num,res_den;
-    int gcd;
-    gcd=find_gcd(res_num,res_den);
     add(num1,den1,num2,den2,&res_num,&res_den);
     output(num1,den1,num2,den2,res_num,res_den);
     return 0;
@@ -25,20 +23,21 @@ void input(int *num1, int *den1, int *num2, int *den2)
 }
 int find_gcd(int a, int b)
 {
-    int gcd=1;
-    for(int i=1; i<=a &&i<=b;i++)
+    if(a==0)
     {
-        if(a%i==0 && b%i==0)
-        {
-            gcd=i;
-        }
+        return b;
     }
-    return gcd;
-}
+    return gcd(b%a,a);
+    }
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
-    *res_den=
-    *res_num=(num1*den2)+(num2*den1);
+    *res_num=(den2*num1)+(den1*num2);
+    *res_den=den1*den2;
+    if(gcd(res_num,res_den)!=1)
+    {
+        *res_num=*res_num/gcd(res_num,res_den);
+        *res_den=*res_num/gcd(res_num,res_den);
+    }
     
 }
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
