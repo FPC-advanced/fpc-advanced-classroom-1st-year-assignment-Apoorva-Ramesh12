@@ -31,7 +31,7 @@ void input_coefficients(int n, float a[n])
     printf("Enter the co-efficients of the polynomial:");
     for(int i=0;i<=n;i++)
     {
-        printf("Enter the co-efficient for a[%d]:",i);
+        printf("\nEnter the co-efficient for x^%d:",i);
         scanf("%f",&a[i]);
     }
 }
