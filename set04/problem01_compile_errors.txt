@@ -119,3 +119,36 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
  int gcd(int a, int b)
      ^~~
 Compilation finished at 11/10/2023, 4:00:26 PM
+Compilation started at 11/10/2023, 4:04:58 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c: In function 'add':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:23: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd_fract=gcd(res_num,res_den);
+                       ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:31: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd_fract=gcd(res_num,res_den);
+                               ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:37:11: warning: comparison between pointer and integer
+     if(gcd!=1)
+           ^~
+Compilation finished at 11/10/2023, 4:04:58 PM
+Compilation started at 11/10/2023, 4:05:18 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c: In function 'add':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:23: warning: passing argument 1 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd_fract=gcd(res_num,res_den);
+                       ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:36:31: warning: passing argument 2 of 'gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd_fract=gcd(res_num,res_den);
+                               ^~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem01.c:7:5: note: expected 'int' but argument is of type 'int *'
+ int gcd(int a, int b)
+     ^~~
+Compilation finished at 11/10/2023, 4:05:18 PM
