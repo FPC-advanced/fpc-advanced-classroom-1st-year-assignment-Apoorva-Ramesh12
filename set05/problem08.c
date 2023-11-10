@@ -52,7 +52,7 @@ void find_camel_weight(int n, Camel c[n])
 }
 float compute_total_weight(int n, Camel c[n], float truck_weight)
 {
-    float total_weight;
+    float total_weight=0;
     for(int i=0;i<n;i++)
     {
         total_weight=c[i].weight+c[i+1].weight;
