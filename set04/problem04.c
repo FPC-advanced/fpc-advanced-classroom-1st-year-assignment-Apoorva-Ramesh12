@@ -10,7 +10,7 @@ int main()
     int d;
     d=input_degree();
     int n;
-    float a[n];
+    float a[100];
     input_coefficients(n,a);
     float x;
     x=input_x();
