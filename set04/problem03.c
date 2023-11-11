@@ -22,7 +22,7 @@ void input_n_and_r(int *n, int *r)
 }
 int nCr(int n,int r)
 {
-    int result,num,den;
+    int result,num,den=1;
    if(r==0 || r==n )
    {
      result=1;
