@@ -22,7 +22,7 @@ void input_n_and_r(int *n, int *r)
 }
 int nCr(int n,int r)
 {
-    int result;
+    int result,num,den;;
    if(r==0 || r==n )
    {
      result=1;
@@ -31,16 +31,12 @@ int nCr(int n,int r)
    {
     result=0;
    }
-   int num,den;
    else
-      {
-        for(int i=0;i<=r;i++)
-        {
-            num=n*(n-1);
-            den=r*(r-1);
-        }
-        result=num/den;
+   {
+    int num,den;
    }
+   
+   
    return result;
 }
 void output(int n, int r, int result)
