@@ -36,7 +36,10 @@ int nCr(int n,int r)
         for(int i=0;i<=r;i++)
         {
             num=n*(n-1);
-            den=r*(r-1);
+        }
+        for(int i=1;i<=r;i++)
+        {
+            den=den*i;
         }
         result=num/den;
    }
