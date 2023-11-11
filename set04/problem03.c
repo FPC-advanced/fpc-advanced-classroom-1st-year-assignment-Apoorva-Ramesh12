@@ -31,9 +31,9 @@ int nCr(int n,int r)
    {
     result=0;
    }
-   int num=1,den=1;
+   int num,den;
    else
-   {
+      {
         for(int i=0;i<=r;i++)
         {
             num=n*(n-1);
