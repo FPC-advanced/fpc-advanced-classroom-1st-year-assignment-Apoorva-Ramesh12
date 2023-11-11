@@ -3,6 +3,7 @@
 void input_n_and_r(int *n, int *r);
 int nCr(int n, int r);
 void output(int n, int r, int result);
+
 int main()
 {
     int n,r;
@@ -22,17 +23,23 @@ void input_n_and_r(int *n, int *r)
 int nCr(int n,int r)
 {
     int result;
-   if(r==0 || r==n || r>n)
+   if(r==0 || r==n )
    {
      result=1;
    }
-   if(r>n)
+   else if(r>n)
    {
     result=0;
    }
-   for(int i=1;i<=r;i++)
+   int num=1,den=1;
+   else
    {
-        result=result*(n-i+1)/i;
+        for(int i=0;i<=r;i++)
+        {
+            num=n*(n-1);
+            den=r*(r-1);
+        }
+        result=num/den;
    }
    return result;
 }
