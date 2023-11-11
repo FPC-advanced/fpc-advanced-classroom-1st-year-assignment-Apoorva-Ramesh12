@@ -43,5 +43,12 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 }
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
-    printf("%d/%d + %d/%d =%d/%d",num1,den1,num2,den2,res_num,res_den);
+    if(res_den!=1)
+    {
+        printf("%d/%d + %d/%d =%d/%d",num1,den1,num2,den2,res_num,res_den);
+    }
+    else
+    {
+        printf("%d/%d + %d/%d =%d",num1,den1,num2,den2,res_num);
+    }
 }
