@@ -1,0 +1,157 @@
+1	//Write a C program to find the square root of a number.
+2	#include<stdio.h>
+3	float input();
+4	float square_root(float n);
+5	void output(float n, float sqrroot);
+6	int main()
+7	{
+8	    float n;
+9	    n=input();
+10	    float sqrroot;
+11	    sqrroot=square_root(n);
+12	    output(n,sqrroot);
+13	    return 0;
+14	}
+15	float input()
+16	{
+17	    float n;
+18	    printf("Enter the number:");
+19	    scanf("%f",&n);
+20	    return n;
+21	}
+22	float square_root(float n)
+23	{
+24	    float guess=n/2;
+25	    float sqrroot=0;
+26	   {
+27	    while (1) {
+28	        sqrroot = 0.5 * (guess + n / guess); 
+29	        if (sqrroot == guess)
+30	            break;
+31	        
+32	        guess = sqrroot;
+33	                }
+34	                return sqrroot;
+35	    }
+36	    
+37	}
+38	void output(float n, float sqrroot)
+39	{
+40	    printf("The square root of %.2f is %.6f",n,sqrroot);
+41	}
+Breakpoint 1 at 0x40147f: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 10.
+Breakpoint 2 at 0x401497: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 12.
+Breakpoint 3 at 0x4014f5: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 26.
+Breakpoint 4 at 0x401509: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 29.
+Breakpoint 5 at 0x40152c: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 34.
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem09.exe 
+[New Thread 20412.0x371c]
+[New Thread 20412.0x3a04]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:11
+11	    sqrroot=square_root(n);
+$1 = 81
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+$2 = 0
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+32	        guess = sqrroot;
+$3 = 21.25
+Undefined command: "nn".  Try "help".
+28	        sqrroot = 0.5 * (guess + n / guess); 
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+32	        guess = sqrroot;
+28	        sqrroot = 0.5 * (guess + n / guess); 
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+Continuing.
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+Continuing.
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+Continuing.
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+Continuing.
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+Continuing.
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+Continuing.
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+Continuing.
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+Continuing.
+
+Breakpoint 3, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:28
+28	        sqrroot = 0.5 * (guess + n / guess); 
+Continuing.
+
+Breakpoint 4, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
+Continuing.
+
+Breakpoint 5, square_root (n=81)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:34
+34	                return sqrroot;
+Continuing.
+
+Breakpoint 2, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:12
+12	    output(n,sqrroot);
+Continuing.
+[Inferior 1 (process 20412) exited normally]
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040147f in main 
+                                           at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:10
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x00401497 in main 
+                                           at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:12
+	breakpoint already hit 1 time
+3       breakpoint     keep y   0x004014f5 in square_root 
+                                           at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:26
+	breakpoint already hit 7 times
+4       breakpoint     keep y   0x00401509 in square_root 
+                                           at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+	breakpoint already hit 7 times
+5       breakpoint     keep y   0x0040152c in square_root 
+                                           at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:34
+	breakpoint already hit 1 time
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".

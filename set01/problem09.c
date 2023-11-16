@@ -21,21 +21,17 @@ float input()
 }
 float square_root(float n)
 {
-    float guess=n/2;
-    float sqrroot=0;
-   {
-    while (1) {
-        sqrroot = 0.5 * (guess + n / guess); 
-        if (sqrroot == guess)
-            break;
-        
-        guess = sqrroot;
-                }
-                return sqrroot;
-    }
-    
+    float x0=n/2,diff=1,acc=0.0001;
+    float sqrroot;
+    while (diff>acc)
+    {
+        sqrroot=0.5*(x0+(n/x0));
+        diff=x0-sqrroot;
+        x0=sqrroot;
+    } 
+    return sqrroot; 
 }
 void output(float n, float sqrroot)
 {
-    printf("The square root of %.2f is %.6f",n,sqrroot);
+    printf("The square root of %f is %f",n,sqrroot);
 }
