@@ -1,0 +1,46 @@
++l
+1	//Write a C program to find the square root of a number.
+2	#include<stdio.h>
+3	float input();
+4	float square_root(float n);
+5	void output(float n, float sqrroot);
+6	int main()
+7	{
+8	    float n;
+9	    n=input();
+10	    float sqrroot;
++l
+11	    sqrroot=square_root(n);
+12	    output(n,sqrroot);
+13	    return 0;
+14	}
+15	float input()
+16	{
+17	    float n;
+18	    printf("Enter the number:");
+19	    scanf("%f",&n);
+20	    return n;
++l
+21	}
+22	float square_root(float n)
+23	{
+24	    float guess=n/2;
+25	    float sqrroot=0;
+26	   {
+27	    while (1) {
+28	        sqrroot = 0.5 * (guess + n / guess); 
+29	        if (sqrroot == guess)
+30	            break;
++l
+31	        
+32	        guess = sqrroot;
+33	                }
+34	                return sqrroot;
+35	    }
+36	    
+37	}
+38	void output(float n, float sqrroot)
+39	{
+40	    printf("The square root of %.2f is %.6f",n,sqrroot);
++l
+41	}
