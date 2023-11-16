@@ -20,3 +20,14 @@ Type "apropos word" to search for commands related to "word".
 Command name abbreviations are allowed if unambiguous.
 Ambiguous set command "trace": trace-buffer-size, trace-commands, trace-notes, trace-stop-notes, trace-user.
 Undefined command: "trace-commands".  Try "help".
++l
+1	//Write a program to find if a triangle is scalene.
+2	#include<stdio.h>
+3	int input_side();
+4	int check_scalene(int a, int b, int c);
+5	void output(int a, int b, int c, int isscalene);
+6	int main()
+7	{
+8	    int a,b,c;
+9	    a=input_side();
+10	    b=input_side();
