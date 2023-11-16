@@ -14,7 +14,7 @@ int main()
     f3=input_fraction();
     Fraction smallest;
     smallest=smallest_fraction(f1,f2,f3);
-    output(f1,f2,f3,smallest);
+    output_smallest(f1,f2,f3,smallest);
     return 0;
 }
 Fraction input_fraction()
