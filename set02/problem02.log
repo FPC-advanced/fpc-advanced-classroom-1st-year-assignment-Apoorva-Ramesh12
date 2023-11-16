@@ -31,3 +31,5 @@ Undefined command: "trace-commands".  Try "help".
 8	    int a,b,c;
 9	    a=input_side();
 10	    b=input_side();
++set logging on
+Already logging to problem02.log.
