@@ -33,7 +33,7 @@ int find_gcd(int a, int b)
     {
         return b;
     }
-    return gcd(b%a,a);
+    return find_gcd(b%a,a);
 }
 Fraction add_fractions(Fraction f1, Fraction f2)
 {
