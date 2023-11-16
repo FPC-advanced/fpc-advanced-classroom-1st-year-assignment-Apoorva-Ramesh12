@@ -1,0 +1,106 @@
++l
+1	#include<stdio.h>
+2	int input();
+3	int compare(int a, int b, int c);
+4	void output(int a, int b, int c, int largest);
+5	int main()
+6	{
+7	    int a,b,c,largest;
+8	    a=input();
+9	    b=input();
+10	    c=input();
++l
+11	    largest=compare(a,b,c);
+12	    output(a,b,c,largest);
+13	    return 0;
+14	}
+15	int input()
+16	{
+17	    int x;
+18	    printf("Enter the number:");
+19	    scanf("%d",&x);
+20	    return x;
++l
+21	}
+22	int compare(int a,int b,int c)
+23	{
+24	    int largest;
+25	    if(a>=b && a>=c)
+26	    {
+27	        largest=a;
+28	    }
+29	    else if(b>=a && b>=c)
+30	    {
++l
+31	        largest=b;
+32	    }
+33	    else{
+34	        largest=c;
+35	    }
+36	    return largest;
+37	}
+38	void output(int a, int b, int c, int largest)
+39	{
+40	    printf("The largest is %d",largest);
++l
+41	}
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c, line 8.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem05.exe 
+[New Thread 18636.0x9dc]
+[New Thread 18636.0x3578]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c:8
+8	    a=input();
++step
+input ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c:18
+18	    printf("Enter the number:");
++n
+19	    scanf("%d",&x);
++n
+20	    return x;
++n
+21	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c:9
+9	    b=input();
++n
+10	    c=input();
++n
+11	    largest=compare(a,b,c);
++step
+compare (a=20, b=22, c=1)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c:25
+25	    if(a>=b && a>=c)
++n
+29	    else if(b>=a && b>=c)
++n
+31	        largest=b;
++p largest
+$1 = 1945779695
++n
+36	    return largest;
++p largest
+$2 = 22
++n
+37	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem05.c:12
+12	    output(a,b,c,largest);
++n
+13	    return 0;
++n
+14	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 18636] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
