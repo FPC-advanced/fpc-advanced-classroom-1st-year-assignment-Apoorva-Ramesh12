@@ -27,3 +27,11 @@
 24	    printf("The sum is %d",sum);
 25	}+b 9
 Breakpoint 1 at 0x401482: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c, line 9.
++b 10
+Breakpoint 2 at 0x40149e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c, line 10.
++b 11
+Breakpoint 3 at 0x4014ba: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c, line 11.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem04.exe 
+[New Thread 14152.0x4e28]
+[New Thread 14152.0x2ea4]
