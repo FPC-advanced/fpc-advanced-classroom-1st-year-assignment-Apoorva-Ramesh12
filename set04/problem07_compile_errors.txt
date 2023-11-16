@@ -1,0 +1,16 @@
+Compilation started at 11/16/2023, 10:12:36 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c: In function 'find_gcd':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c:36:12: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     return gcd(b%a,a);
+            ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c: In function 'add_fractions':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c:44:11: warning: comparison between pointer and integer
+     if(gcd!=1)
+           ^~
+C:\Users\AP\AppData\Local\Temp\ccqKqyW6.o: In function `find_gcd':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:36: undefined reference to `gcd'
+C:\Users\AP\AppData\Local\Temp\ccqKqyW6.o: In function `add_fractions':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:43: undefined reference to `gcd'
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:44: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 10:12:37 PM
