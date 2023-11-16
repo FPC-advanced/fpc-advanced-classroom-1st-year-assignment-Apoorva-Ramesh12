@@ -43,4 +43,52 @@
 39	{
 40	    printf("The square root of %.2f is %.6f",n,sqrroot);
 +l
-41	}
+41	}+b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 9.
++b 29
+Breakpoint 2 at 0x401509: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 29.
++b 34
+Breakpoint 3 at 0x40152c: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 34.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem09.exe 
+[New Thread 17688.0x312c]
+[New Thread 17688.0xf18]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:9
+9	    n=input();
++step
+input ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:18
+18	    printf("Enter the number:");
++64
+Undefined command: "64".  Try "help".
++n
+19	    scanf("%f",&n);
++64
+Undefined command: "64".  Try "help".
++p n
+$1 = 0
++n
+20	    return n;
++p n
+$2 = 0
++n
+21	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:11
+11	    sqrroot=square_root(n);
++n
+
+Breakpoint 2, square_root (n=0)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:29
+29	        if (sqrroot == guess)
++p sqrroot
+$3 = -nan(0x400000)
++q
+A debugging session is active.
+
+	Inferior 1 [process 17688] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
