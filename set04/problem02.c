@@ -17,7 +17,7 @@ int main()
     output(f1,f2,f3,smallest);
     return 0;
 }
-Fraction input_fractions()
+Fraction input_fraction()
 {
     Fraction f;
     printf("Enter the numerator and denominator:");

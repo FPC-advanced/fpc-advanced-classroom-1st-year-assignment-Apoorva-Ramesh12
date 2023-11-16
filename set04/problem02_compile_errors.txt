@@ -10,3 +10,12 @@ c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assign
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem02.c:17: undefined reference to `output'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/16/2023, 9:45:42 PM
+Compilation started at 11/16/2023, 9:47:23 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c:17:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(f1,f2,f3,smallest);
+     ^~~~~~
+C:\Users\AP\AppData\Local\Temp\ccAuT6BH.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem02.c:17: undefined reference to `output'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 9:47:23 PM
