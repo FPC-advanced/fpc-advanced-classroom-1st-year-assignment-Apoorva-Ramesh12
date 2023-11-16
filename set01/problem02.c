@@ -28,5 +28,5 @@ int add(int a,int b,int sum)
 }
 void output(int sum)
 {
-    printf("Sum=%d",sum);
+    printf("Sum=%d\n",sum);
 }

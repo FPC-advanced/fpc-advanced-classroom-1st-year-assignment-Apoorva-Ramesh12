@@ -37,5 +37,5 @@ int compare(int a,int b,int c)
 }
 void output(int a, int b, int c, int largest)
 {
-    printf("The largest is %d",largest);
+    printf("The largest is %d\n",largest);
 }

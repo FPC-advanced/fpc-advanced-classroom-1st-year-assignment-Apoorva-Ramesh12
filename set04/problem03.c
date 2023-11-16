@@ -33,7 +33,7 @@ int nCr(int n,int r)
    }
    else
    {
-        for(int i=1;i<=r;i++)
+        for(int i=0;i<=r;i++)
         {
             num=num*(n-i);
         }
