@@ -42,7 +42,7 @@ void input_n_complex(int n, Complex c[n])
 {
     for(int i=0;i<n;i++)
     {
-        printf("Complex No. %d",i+1);
+        printf("Complex No. %d\n",i+1);
         c[i]=input_complex();
     }
 }
