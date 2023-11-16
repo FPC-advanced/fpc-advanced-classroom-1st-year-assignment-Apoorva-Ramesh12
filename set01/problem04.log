@@ -25,4 +25,5 @@
 22	void output(int a,int b,int sum)
 23	{
 24	    printf("The sum is %d",sum);
-25	}
+25	}+b 9
+Breakpoint 1 at 0x401482: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c, line 9.
