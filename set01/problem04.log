@@ -1,0 +1,28 @@
++l
+1	#include<stdio.h>
+2	void input(int *a, int *b);
+3	void add(int a, int b, int *sum);
+4	void output(int a, int b, int sum);
+5	int main()
+6	{
+7	    int a,b,sum;
+8	    input(&a,&b);
+9	    add(a,b,&sum);
+10	    output(a,b,sum);
++l
+11	    return 0;
+12	}
+13	void input(int *a,int *b)
+14	{
+15	    printf("Enter the numbers:");
+16	    scanf("%d %d",a,b);
+17	}
+18	void add(int a,int b,int *sum)
+19	{
+20	    *sum=a+b;
++l
+21	}
+22	void output(int a,int b,int sum)
+23	{
+24	    printf("The sum is %d",sum);
+25	}
