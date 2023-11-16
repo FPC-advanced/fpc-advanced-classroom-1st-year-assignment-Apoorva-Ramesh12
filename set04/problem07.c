@@ -23,7 +23,7 @@ Fraction input_fraction()
     Fraction f;
     printf("Enter the numerator:");
     scanf("%d",&f.num);
-    printf("Enter the denominator");
+    printf("Enter the denominator:");
     scanf("%d",&f.den);
     return f;
 }
@@ -50,5 +50,5 @@ Fraction add_fractions(Fraction f1, Fraction f2)
 }
 void output(Fraction f1, Fraction f2, Fraction sum)
 {
-    printf("%d/%d + %d/%d = %d/%d/n",f1.num,f1.den,f2.num,f2.den,sum.num,sum.den);
+    printf("%d/%d + %d/%d = %d/%d\n",f1.num,f1.den,f2.num,f2.den,sum.num,sum.den);
 }
