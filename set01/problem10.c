@@ -25,7 +25,7 @@ int stringcompare(char *string1, char *string2)
     int largest;
     for(int i=0;string1[i]!='\0' && string2[i]!='\0';i++)
     {   
-        int string1[i],string2[i];
+        //int string1[i],string2[i];
         if(string1[i]>string2[i])
         {
             largest=2;
