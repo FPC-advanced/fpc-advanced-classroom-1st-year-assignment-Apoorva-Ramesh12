@@ -35,3 +35,16 @@ Breakpoint 3 at 0x4014ba: file c:\Users\AP\github-classroom\FPC-advanced\fpc-adv
 Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem04.exe 
 [New Thread 14152.0x4e28]
 [New Thread 14152.0x2ea4]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c:9
+9	    add(a,b,&sum);
++p a
+$1 = 34
++p b
+$2 = 45
++n
+
+Breakpoint 2, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c:10
+10	    output(a,b,sum);
