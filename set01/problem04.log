@@ -48,3 +48,11 @@ $2 = 45
 Breakpoint 2, main ()
     at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c:10
 10	    output(a,b,sum);
++step
+output (a=34, b=45, sum=79)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem04.c:24
+24	    printf("The sum is %d",sum);
++p
+$3 = 45
++n
+25	}
