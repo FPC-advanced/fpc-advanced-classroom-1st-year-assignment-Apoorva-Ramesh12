@@ -14,3 +14,23 @@ c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assign
 c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:44: undefined reference to `gcd'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/16/2023, 10:12:37 PM
+Compilation started at 11/16/2023, 10:12:49 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c: In function 'find_gcd':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c:36:12: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     return gcd(b%a,a);
+            ^~~
+C:\Users\AP\AppData\Local\Temp\ccM6uF0s.o: In function `find_gcd':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:36: undefined reference to `gcd'
+C:\Users\AP\AppData\Local\Temp\ccM6uF0s.o: In function `add_fractions':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:43: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 10:12:49 PM
+Compilation started at 11/16/2023, 10:13:10 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c: In function 'find_gcd':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem07.c:36:12: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     return gcd(b%a,a);
+            ^~~
+C:\Users\AP\AppData\Local\Temp\ccUTqmC1.o: In function `find_gcd':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/set04/problem07.c:36: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 10:13:10 PM

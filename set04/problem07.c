@@ -40,8 +40,8 @@ Fraction add_fractions(Fraction f1, Fraction f2)
     Fraction res;
     res.num=(f2.den*f1.num)+(f1.den*f2.num);
     res.den=f1.den*f2.den;
-    int gcd_fract=gcd(res.num,res.den);
-    if(gcd!=1)
+    int gcd_fract=find_gcd(res.num,res.den);
+    if(gcd_fract!=1)
     {
         res.num=res.num/gcd_fract;
         res.den=res.den/gcd_fract;
