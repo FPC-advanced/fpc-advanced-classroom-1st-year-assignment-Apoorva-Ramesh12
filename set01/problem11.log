@@ -1,0 +1,95 @@
++l
+6	};
+7	typedef struct _complex Complex;
+8	
+9	Complex input_complex();
+10	Complex add_complex(Complex a, Complex b);
+11	void output(Complex a, Complex b, Complex sum);
+12	int main()
+13	{
+14	    Complex a,b;
+15	    a=input_complex();
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c, line 15.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem11.exe 
+[New Thread 17936.0x1110]
+[New Thread 17936.0x158c]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:15
+15	    a=input_complex();
++step
+input_complex ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:25
+25	    printf("Enter the real part:");
++step
+26	    scanf("%f",&comp.real);
++n
+27	    printf("Enter the imaginary part:");
++n
+28	    scanf("%f",&comp.imaginary);
++n
+29	    return comp;
++n
+30	}
++p comp
+$1 = {real = 23, imaginary = 23}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:16
+16	    b=input_complex();
++step
+input_complex ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:25
+25	    printf("Enter the real part:");
++n
+26	    scanf("%f",&comp.real);
++n
+27	    printf("Enter the imaginary part:");
++n
+28	    scanf("%f",&comp.imaginary);
++n
+29	    return comp;
++p comp
+$2 = {real = 24, imaginary = 24}
++n
+30	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:18
+18	    sum=add_complex(a,b);
++step
+add_complex (a=..., b=...)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:34
+34	    sum.real=a.real+b.real;
++step
+35	    sum.imaginary=a.imaginary+b.imaginary;
++step
+36	    return sum;
++p sum.real
+$3 = 47
++p sum.imaginary
+$4 = 47
++p sum
+$5 = {real = 47, imaginary = 47}
++p sum
+$6 = {real = 47, imaginary = 47}
++n
+37	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem11.c:19
+19	    output(a,b,sum);
++n
+20	    return 0;
++n
+21	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 17936] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
