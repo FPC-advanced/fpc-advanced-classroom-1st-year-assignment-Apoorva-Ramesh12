@@ -30,3 +30,11 @@ input (base=0x61ff1c, height=0x61ff18)
 18	    scanf("%f",base);
 +n
 19	    printf("Enter the height: ");
++n
+20	    scanf("%f",height);
++n
+21	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem01.c:11
+11	    find_area(base,height,&area);
