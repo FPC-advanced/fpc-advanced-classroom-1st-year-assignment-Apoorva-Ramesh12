@@ -1,0 +1,24 @@
++l
+1	//Write a program to find the area of a triangle.
+2	#include<stdio.h>
+3	void input(float *base, float *height);
+4	void find_area(float base , float height, float *area);
+5	void output(float base, float height, float area);
+6	int main()
+7	{
+8	    float base,height;
+9	    input(&base,&height);
+10	    float area;
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem01.c, line 9.
++b main
+Note: breakpoint 1 also set at pc 0x40146e.
+Breakpoint 2 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem01.c, line 9.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02/./problem01.exe 
+[New Thread 12632.0x5c4]
+[New Thread 12632.0x3758]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem01.c:9
+9	    input(&base,&height);
