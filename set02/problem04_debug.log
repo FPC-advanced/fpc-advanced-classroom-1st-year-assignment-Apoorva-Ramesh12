@@ -34,3 +34,67 @@ sum_composite_numbers (n=5, a=0x61fed8)
 41	            if(a[i]%j==0)
 +n
 39	        for(int j=2;j<a[i];j++)
++p composite
+$3 = 0
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++p composite
+$4 = 0
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++p composite
+$5 = 0
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++p composite
+$6 = 0
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
++n
+47	        if(composite)
++n
+36	    for(int i=0;i<=n;i++)
++n
+38	        int composite=0;
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+43	                composite=1;
++n
+44	                break;
++n
+47	        if(composite)
++p composite
+$7 = 1
++continue
+Continuing.
+[Inferior 1 (process 20396) exited normally]
++c
+The program is not being run.
++q
