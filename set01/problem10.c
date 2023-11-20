@@ -84,30 +84,30 @@ void output(char *string1, char *string2, int result)
 
 
 
-for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
-    {   
-        if(string1[i]==string2[j])
-        {
-            int string1[i],string2[j];
+// for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+//     {   
+//         if(string1[i]==string2[j])
+//         {
+//             int string1[i],string2[j];
             
-            if(string1[i]>string2[j])
-            {
-                largest=1;
-            }
-            else{
-                largest=2;
-            }
-        }
-        else if(string1[i]<string2[j])
-        {
-            largest=2;
-        }
-        else if(string1[i]>string2[j])
-        {
-            largest=1;
-        }
-        else
-        {
-            largest=0;
-        }
-    }
+//             if(string1[i]>string2[j])
+//             {
+//                 largest=1;
+//             }
+//             else{
+//                 largest=2;
+//             }
+//         }
+//         else if(string1[i]<string2[j])
+//         {
+//             largest=2;
+//         }
+//         else if(string1[i]>string2[j])
+//         {
+//             largest=1;
+//         }
+//         else
+//         {
+//             largest=0;
+//         }
+//     }
