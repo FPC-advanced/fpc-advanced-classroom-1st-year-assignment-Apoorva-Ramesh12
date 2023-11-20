@@ -16,3 +16,6 @@ Breakpoint 1, 0x00401477 in main ()
 $1 = 5
 +n
 12	    input_array(n,a);
++p a[n]
+$2 = 4199600
++n
