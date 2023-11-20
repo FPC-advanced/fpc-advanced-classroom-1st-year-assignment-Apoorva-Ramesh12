@@ -22,37 +22,42 @@ void input_two_strings(char *string1, char *string2)
 }
 int stringcompare(char *string1, char *string2)
 {
-    int largest=0,i,j;
-    while(string1[i]!='\0' && string2[j])
-    {
+    int largest;
+    for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+    {   
         if(string1[i]==string2[j])
         {
-            i++;
-            j++;
+            int string1[i],string2[j];
+            
+            if(string1[i]>string2[j])
+            {
+                largest=1;
+            }
+            else{
+                largest=2;
+            }
         }
         else if(string1[i]<string2[j])
         {
             largest=2;
-            break;
         }
-        else 
-        {
-            largest=1;
-            break;
-        }
-    }
-    if(largest==0)
-    {
-        if(string1[i]=='\0' && string2[j]!='\0')
+        else if(string1[i]>string2[j])
         {
             largest=1;
         }
         else
         {
+            largest=0;
+        }
+        if(string1[i]!='\0' && string2[i]=='\0')
+        {
             largest=2;
         }
+        else
+        {
+            largest=1;
+        }
     }
-
     return largest;
 }
 void output(char *string1, char *string2, int result)
@@ -65,45 +70,12 @@ void output(char *string1, char *string2, int result)
     {
     printf("The greater string among %s and %s is %s",string1,string2,string2);
     }
+    else if(result==-1)
+    {
+        printf("The strings are not equal.");
+    }
     else
     {
         printf("The strings are equal.");
     }
 }
-
-
-
-
-
-
-
-
-
-
-// for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
-//     {   
-//         if(string1[i]==string2[j])
-//         {
-//             int string1[i],string2[j];
-            
-//             if(string1[i]>string2[j])
-//             {
-//                 largest=1;
-//             }
-//             else{
-//                 largest=2;
-//             }
-//         }
-//         else if(string1[i]<string2[j])
-//         {
-//             largest=2;
-//         }
-//         else if(string1[i]>string2[j])
-//         {
-//             largest=1;
-//         }
-//         else
-//         {
-//             largest=0;
-//         }
-//     }
