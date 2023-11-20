@@ -1,0 +1,18 @@
++b main
+Breakpoint 1 at 0x401477: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem04.c, line 8.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02/./problem04.exe 
+[New Thread 20396.0x19d4]
+[New Thread 20396.0x4d00]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem04.c:8
+8	{
++n
+10	    n=input_array_size();
++n
+11	    int a[n];
++p n
+$1 = 5
++n
+12	    input_array(n,a);
