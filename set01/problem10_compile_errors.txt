@@ -52,3 +52,17 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
  for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
                                                        ^~
 Compilation finished at 11/20/2023, 6:49:06 PM
+Compilation started at 11/20/2023, 6:49:41 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:87:1: error: expected identifier or '(' before 'for'
+ for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+ ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:87:25: error: 'i' undeclared here (not in a function)
+ for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:87:27: error: expected '=', ',', ';', 'asm' or '__attribute__' before '!=' token
+ for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+                           ^~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:87:55: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+ for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
+                                                       ^~
+Compilation finished at 11/20/2023, 6:49:41 PM

@@ -1,0 +1,73 @@
++b 27
+Breakpoint 1 at 0x401527: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c, line 27.
++b main 
+Breakpoint 2 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem10.exe 
+[New Thread 24116.0x3134]
+[New Thread 24116.0xc58]
+
+Breakpoint 2, main () at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:10
+10	    input_two_strings(string1,string2);
++step
+input_two_strings (string1=0x61feb8 "\034“\016vüþa", string2=0x61fe54 "lÀhS¨þa")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:18
+18	    printf("Enter the first string: ");
++n
+19	    scanf("%s",string1);
++n
+20	    printf("Enter the second string: ");
++n
+21	    scanf("%s",string2);
++n
+22	}
++n
+main () at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:12
+12	    result=stringcompare(string1,string2);
++step
+stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:26
+26	    for(int i=0,j=0;string1[i]!='\0' || string2[j]!='\0';i++,j++)
++n
+
+Breakpoint 1, stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:28
+28	        if(string1[i]==string2[j])
++n
+29	        {
++n
+30	            int string1[i],string2[j];
++n
+32	            if(string1[i]>string2[j])
++p string1[i]
+$1 = 6422040
++p string2[0]
+$2 = 6422476
++cd "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01"
+"c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01": Invalid argument.
++gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c" -o "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++continue
+Continuing.
+
+Breakpoint 1, stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:28
+28	==string2[j])
++continue
+Continuing.
+
+Breakpoint 1, stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:28
+28	==string2[j])
++continue
+Continuing.
+
+Breakpoint 1, stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:28
+28	==string2[j])
++q
+A debugging session is active.
+
+	Inferior 1 [process 24116] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
