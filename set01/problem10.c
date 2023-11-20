@@ -65,10 +65,6 @@ void output(char *string1, char *string2, int result)
     {
     printf("The greater string among %s and %s is %s",string1,string2,string2);
     }
-    else if(result==-1)
-    {
-        printf("The strings are not equal.");
-    }
     else
     {
         printf("The strings are equal.");
