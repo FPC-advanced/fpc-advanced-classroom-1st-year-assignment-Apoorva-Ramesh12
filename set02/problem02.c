@@ -38,7 +38,7 @@ void output(int a, int b, int c, int isscalene)
 {
     if(isscalene==0)
     {
-        printf("The triangle is scalene.");
+        printf("The triangle is scalene.\n");
     }
     else
     {

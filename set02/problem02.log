@@ -238,3 +238,64 @@ Type "help set" followed by set subcommand name for full documentation.
 Type "apropos word" to search for commands related to "word".
 Command name abbreviations are allowed if unambiguous.
 +q
++l
+1	//Write a program to find if a triangle is scalene.
+2	#include<stdio.h>
+3	int input_side();
+4	int check_scalene(int a, int b, int c);
+5	void output(int a, int b, int c, int isscalene);
+6	int main()
+7	{
+8	    int a,b,c;
+9	    a=input_side();
+10	    b=input_side();
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c, line 9.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02/./problem02.exe 
+[New Thread 2908.0x5bc4]
+[New Thread 2908.0x44e4]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:9
+9	    a=input_side();
++step
+input_side ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:20
+20	    printf("Enter the side:");
++n
+21	    scanf("%d",&x);
++n
+22	    return x;
++n
+23	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:10
+10	    b=input_side();
++p a
+$1 = 2
++n
+11	    c=input_side();
++p b
+$2 = 3
++n
+13	    isscalene=check_scalene(a,b,c);
++p c
+$3 = 4
++n
+14	    output(a,b,c,isscalene);
++p isscalene
+$4 = 0
++n
+15	    return 0;
++n
+16	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 2908] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
