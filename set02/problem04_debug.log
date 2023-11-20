@@ -19,3 +19,18 @@ $1 = 5
 +p a[n]
 $2 = 4199600
 +n
+14	    sum=sum_composite_numbers(n,a);
++step
+sum_composite_numbers (n=5, a=0x61fed8)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem04.c:35
+35	    int sum=0;
++n
+36	    for(int i=0;i<=n;i++)
++n
+38	        int composite=0;
++n
+39	        for(int j=2;j<a[i];j++)
++n
+41	            if(a[i]%j==0)
++n
+39	        for(int j=2;j<a[i];j++)
