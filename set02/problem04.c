@@ -35,11 +35,11 @@ int sum_composite_numbers(int n,int a[n])
     int sum=0;
     for(int i=0;i<=n;i++)
     {
-        for(int j=2;j<n;j++)
+        for(int j=0;j<n;j++)
         {
             if(a[j]%j==0)
             {
-                sum=sum+a[j];
+                sum=sum+a[i];
             }
         }
     }
