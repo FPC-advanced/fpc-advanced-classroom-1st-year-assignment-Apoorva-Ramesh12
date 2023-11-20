@@ -40,8 +40,13 @@ int sum_composite_numbers(int n,int a[n])
         {
             if(a[i]%j==0)
             {
-                sum=sum+a[i];
+                composite=1;
+                break;
             }
+        }
+        if(composite)
+        {
+            sum=sum+a[i];
         }
     }
     return sum;
