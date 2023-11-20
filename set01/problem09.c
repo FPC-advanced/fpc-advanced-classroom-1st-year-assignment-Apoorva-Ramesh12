@@ -21,12 +21,19 @@ float input()
 }
 float square_root(float n)
 {
-    float x0=n/2,diff=1,acc=0.0001; //approximated to 4 digits
+    float x0=n,diff=1,acc=0.000001; //approximated to 4 digits
     float sqrroot;
     while (diff>acc)
     {
         sqrroot=0.5*(x0+(n/x0));
-        diff=x0-sqrroot;
+        if(x0<sqrroot)
+        {
+            diff=sqrroot-x0;
+        }
+        else
+        {
+            diff=x0-sqrroot;
+        }
         x0=sqrroot;
     } 
     return sqrroot; 

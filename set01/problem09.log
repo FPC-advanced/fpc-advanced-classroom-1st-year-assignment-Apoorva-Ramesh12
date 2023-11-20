@@ -269,3 +269,72 @@ A debugging session is active.
 	Inferior 1 [process 18480] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++l
+1	//Write a C program to find the square root of a number.
+2	#include<stdio.h>
+3	float input();
+4	float square_root(float n);
+5	void output(float n, float sqrroot);
+6	int main()
+7	{
+8	    float n;
+9	    n=input();
+10	    float sqrroot;
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c, line 9.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem09.exe 
+[New Thread 13120.0x95c]
+[New Thread 13120.0x3990]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:9
+9	    n=input();
++n
+11	    sqrroot=square_root(n);
++step
+square_root (n=2)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:24
+24	    float x0=n/2,diff=1,acc=0.01; //approximated to 4 digits
++n
+26	    while (diff>acc)
++p x0
+$1 = 1
++p acc
+$2 = 0.00999999978
++p acc
+$3 = 0.00999999978
++n
+28	        sqrroot=0.5*(x0+(n/x0));
++n
+29	        diff=x0-sqrroot;
++n
+30	        x0=sqrroot;
++n
+26	    while (diff>acc)
++p sqrroot
+$4 = 1.5
++p diff
+$5 = -0.5
++p x0
+$6 = 1.5
++n
+32	root-x0;
++n
+33	       else
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem09.c:12
+12	    output(n,sqrroot);
++n
+13	    return 0;
++n
+14	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 13120] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
