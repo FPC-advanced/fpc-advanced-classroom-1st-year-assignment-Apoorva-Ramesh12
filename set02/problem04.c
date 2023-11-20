@@ -4,6 +4,7 @@ int input_array_size();
 void input_array(int n, int a[n]);
 int sum_composite_numbers(int n, int a[n]);
 void output(int sum);
+for(int i=2;i<=num/2)
 int main()
 {
     int n;
@@ -35,9 +36,9 @@ int sum_composite_numbers(int n,int a[n])
     int sum=0;
     for(int i=0;i<=n;i++)
     {
-        for(int j=0;j<n;j++)
+        for(int j=2;j<a[i]/2;j++)
         {
-            if(a[j]%j==0)
+            if(a[i]%j==0)
             {
                 sum=sum+a[i];
             }
