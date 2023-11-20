@@ -26,13 +26,13 @@ int check_scalene(int a, int b, int c)
     int isscalene;
     if(a!=b && b!=c && c!=a)
     {
-        isscalene=0;
+        return 0;
     }
     else
     {
-        isscalene=1;
+        return 1;
     }
-    return isscalene;
+    
 }
 void output(int a, int b, int c, int isscalene)
 {
