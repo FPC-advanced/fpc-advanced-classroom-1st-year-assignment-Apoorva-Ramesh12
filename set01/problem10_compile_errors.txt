@@ -76,3 +76,9 @@ Compilation started at 11/20/2023, 6:59:24 PM
 Compilation finished at 11/20/2023, 6:59:24 PM
 Compilation started at 11/20/2023, 7:00:03 PM
 Compilation finished at 11/20/2023, 7:00:03 PM
+Compilation started at 11/21/2023, 12:26:19 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c: In function 'stringcompare':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:60:24: warning: multi-character character constant [-Wmultichar]
+         if(string1[i]=='/0' && string2[j]!='\0')
+                        ^~~~
+Compilation finished at 11/21/2023, 12:26:19 PM
