@@ -44,7 +44,7 @@ int stringcompare(char *string1, char *string2)
         {
             if(string1[i]=='\0' && string2[j]!='\0')
             {
-                
+                largest=1;
             }
         }
     }
