@@ -22,7 +22,8 @@ void input_two_strings(char *string1, char *string2)
 }
 int stringcompare(char *string1, char *string2)
 {
-    int largest;
+    int largest,i,j;
+    while(string)
     
 }
 void output(char *string1, char *string2, int result)
@@ -34,10 +35,6 @@ void output(char *string1, char *string2, int result)
     else if(result==2)
     {
     printf("The greater string among %s and %s is %s",string1,string2,string2);
-    }
-    else if(result==-1)
-    {
-        printf("The strings are not equal.");
     }
     else
     {
