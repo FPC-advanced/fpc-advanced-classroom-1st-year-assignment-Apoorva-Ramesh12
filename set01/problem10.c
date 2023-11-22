@@ -27,8 +27,9 @@ int stringcompare(char *string1, char *string2)
     {
         if(string1[i]==string2[j])
         {
-            
+            result=0;
         }
+        if()
     }
     
 }
