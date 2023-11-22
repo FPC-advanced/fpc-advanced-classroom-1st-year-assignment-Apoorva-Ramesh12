@@ -41,6 +41,12 @@ int stringcompare(char *string1, char *string2)
             break;
         }
         if(largest==0)
+        {
+            if(string1[i]=='\0' && string2[j]!='\0')
+            {
+                
+            }
+        }
     }
     
 }
