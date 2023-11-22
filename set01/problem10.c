@@ -29,7 +29,10 @@ int stringcompare(char *string1, char *string2)
         {
             largest=0;
         }
-        if(string1[i])
+        else if(string1[i]>string2[j])
+        {
+            largest=
+        }
     }
     
 }
