@@ -49,10 +49,9 @@ int stringcompare(char *string1, char *string2)
             else{
                 largest=2;
             }
-            return largest;
         }
     }
-    
+    return largest;
 }
 void output(char *string1, char *string2, int result)
 {
