@@ -33,5 +33,5 @@ int input_n()
 Point input_point(char *promt_msg)
 {
     Point pnt;
-    printf("Enter the coordiantes of all the points of the polygon:")
+    printf("Enter the coordiantes of all the points of the polygon:");
 }

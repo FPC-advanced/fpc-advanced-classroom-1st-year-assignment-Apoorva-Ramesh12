@@ -30,13 +30,18 @@ void input_array(int n,int a[n])
         scanf("%d",&a[i]);
     }
 }
+
 int sum_composite_numbers(int n,int a[n])
 {
-    int i,sum=0;
-    for( i=0;i<=n;i++)
+    int sum=0;
+    for(int i=0;i<n;i++)
     {
-        
-        for(int j=2;j<a[i];j++)
+        int composite=0;
+        if(a[i]<=1)
+        {
+            continue;
+        }
+        for(int j=2;j*j<=a[i];j++)
         {
             if(a[i]%j==0)
             {
@@ -44,12 +49,11 @@ int sum_composite_numbers(int n,int a[n])
                 break;
             }
         }
-        
-    }
-    if(composite)
+        if(composite==1)
         {
-           sum+=a[i];
-        } 
+            sum=sum+a[i];
+        }
+    }
     return sum;
 }
 void output(int sum)
