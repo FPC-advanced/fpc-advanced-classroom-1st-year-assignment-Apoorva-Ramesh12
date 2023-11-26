@@ -104,3 +104,15 @@ Compilation started at 11/26/2023, 5:19:30 PM
 Compilation finished at 11/26/2023, 5:19:30 PM
 Compilation started at 11/26/2023, 5:20:00 PM
 Compilation finished at 11/26/2023, 5:20:00 PM
+Compilation started at 11/26/2023, 5:21:55 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c: In function 'stringcompare':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:66:1: error: expected declaration or statement at end of input
+ }
+ ^
+Compilation finished at 11/26/2023, 5:21:55 PM
+Compilation started at 11/26/2023, 5:22:07 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c: In function 'stringcompare':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:66:1: error: expected declaration or statement at end of input
+ }
+ ^
+Compilation finished at 11/26/2023, 5:22:07 PM
