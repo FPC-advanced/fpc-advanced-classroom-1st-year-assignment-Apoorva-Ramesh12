@@ -32,12 +32,10 @@ int stringcompare(char *string1, char *string2)
         else if(string1[i]<string2[i])
         {
             largest=2;
-            break;
         }
         else if(string1[i]>string2[i])
         {
             largest=1;
-            break;
         }
         if(largest==0)
         {
