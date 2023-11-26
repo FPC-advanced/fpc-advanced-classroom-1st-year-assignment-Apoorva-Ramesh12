@@ -116,3 +116,15 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
  }
  ^
 Compilation finished at 11/26/2023, 5:22:07 PM
+Compilation started at 11/26/2023, 5:22:38 PM
+Compilation finished at 11/26/2023, 5:22:38 PM
+Compilation started at 11/26/2023, 5:23:18 PM
+Compilation finished at 11/26/2023, 5:23:18 PM
+Compilation started at 11/26/2023, 5:39:08 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c: In function 'stringcompare':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:46:9: error: expected ';' before '}' token
+         }
+         ^
+Compilation finished at 11/26/2023, 5:39:08 PM
+Compilation started at 11/26/2023, 5:41:08 PM
+Compilation finished at 11/26/2023, 5:41:09 PM
