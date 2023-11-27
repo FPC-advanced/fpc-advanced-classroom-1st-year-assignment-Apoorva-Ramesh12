@@ -158,3 +158,10 @@ c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assign
                      ^
 c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:45:21: note: each undeclared identifier is reported only once for each function it appears in
 Compilation finished at 11/27/2023, 11:22:51 AM
+Compilation started at 11/27/2023, 11:23:15 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c: In function 'stringcompare':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:45:21: error: 'i' undeclared (first use in this function)
+         if (string1[i] != '\0' && string2[i] == '\0')
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:45:21: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 11/27/2023, 11:23:15 AM
