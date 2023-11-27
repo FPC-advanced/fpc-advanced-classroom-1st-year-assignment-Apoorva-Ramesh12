@@ -46,7 +46,7 @@ int stringcompare(char *string1, char *string2)
         {
             largest=2;
         }
-        else
+        else if()
         {
             largest=1;
         }
