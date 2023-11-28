@@ -1,0 +1,62 @@
++l
+warning: Source file is more recent than executable.
+1	// Write a C program to compare two strings, character by character.
+2	#include <stdio.h>
+3	#include <string.h>
+4	void input_two_strings(char *string1, char *string2);
+5	int stringcompare(char *string1, char *string2);
+6	void output(char *string1, char *string2, int result);
+7	int main()
+8	{
+9	    char string1[100], string2[100];
+10	    input_two_strings(string1, string2);
++b main
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem10.exe 
+[New Thread 9276.0x16b8]
+[New Thread 9276.0x42f0]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:10
+10	    input_two_strings(string1, string2);
++step
+input_two_strings (string1=0x61feb8 "\034“Ovüþa", string2=0x61fe54 "\032m\201î¨þa")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:18
+18	    printf("Enter the first string: ");
++n
+19	    scanf("%s", string1);
++n
+20	    printf("Enter the second string: ");
++n
+21	    scanf("%s", string2);
++n
+22	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:12
+12	    result = stringcompare(string1, string2);
++step
+stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:25
+25	    int largest = 0, i = 0,j=0;
++n
+26	    while (string1[i] != '\0' && string2[j] != '\0')
++n
+32	        }
++n
+39	        {
++n
+40	            largest = 2;
++p string1[2]
+$1 = 108 'l'
++p string1[0]
+$2 = 104 'h'
++p string2[0]
+$3 = 104 'h'
++continue
+Continuing.
+[Inferior 1 (process 9276) exited normally]
++continue
+The program is not being run.
++q
