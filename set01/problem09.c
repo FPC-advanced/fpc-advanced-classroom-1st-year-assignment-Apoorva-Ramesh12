@@ -33,7 +33,6 @@ float square_root(float n)
         // else
         // {
         diff=x0-sqrroot;
-        // }
         x0=sqrroot;
     } 
     return sqrroot; 
