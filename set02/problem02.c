@@ -23,7 +23,6 @@ int input_side()
 }
 int check_scalene(int a, int b, int c)
 {
-    int isscalene;
     if(a!=b && b!=c && c!=a)
     {
         return 0;
