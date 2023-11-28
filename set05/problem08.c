@@ -17,9 +17,8 @@ void output(float total_weight);
 int main()
 {
     int n;
-    // printf("Hello world.");
-    Camel c[n];
     float truck_weight;
+    Camel c[n];
     input(n,c,&truck_weight);
     find_camel_weight(n,c);
     float total_weight;
