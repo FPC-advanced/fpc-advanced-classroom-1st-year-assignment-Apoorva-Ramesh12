@@ -33,6 +33,12 @@ float square_root(float n)
 }
 void output(float n, float sqrroot)
 {
-    if(n<0)
+    if(n<0 || n==0)
+    {
+        printf("Invalid input.");
+    }
+    else
+    {
     printf("The square root of %f is %f",n,sqrroot);
+    }
 }
