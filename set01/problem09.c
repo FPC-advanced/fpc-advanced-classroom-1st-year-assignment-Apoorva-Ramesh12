@@ -25,7 +25,7 @@ float square_root(float n)
     float sqrroot;
     while (diff>acc)
     {
-        sqrroot=fabs(0.5*(x0+(n/x0)));
+        sqrroot=0.5*(x0+(n/x0));
         diff=x0-sqrroot;
         x0=sqrroot;
     } 
