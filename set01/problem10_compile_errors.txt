@@ -235,3 +235,17 @@ Compilation started at 11/28/2023, 11:46:31 PM
 Compilation finished at 11/28/2023, 11:46:32 PM
 Compilation started at 11/29/2023, 10:00:42 AM
 Compilation finished at 11/29/2023, 10:00:42 AM
+Compilation started at 11/29/2023, 10:01:13 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/29/2023, 10:01:13 AM
+Compilation started at 11/29/2023, 10:01:45 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/29/2023, 10:01:45 AM
+Compilation started at 11/29/2023, 10:02:01 AM
+Compilation finished at 11/29/2023, 10:02:02 AM
+Compilation started at 11/29/2023, 10:23:56 AM
+Compilation finished at 11/29/2023, 10:23:56 AM
+Compilation started at 11/29/2023, 10:24:24 AM
+Compilation finished at 11/29/2023, 10:24:24 AM
