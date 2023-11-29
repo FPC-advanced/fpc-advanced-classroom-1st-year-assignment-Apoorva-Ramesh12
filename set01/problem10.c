@@ -40,15 +40,16 @@ int stringcompare(char *string1, char *string2)
             break;
         }
     }
-    if(largest==0
-    {)
-    if(string1[i]!='\0' && string2[i]=='\0')
+    if(largest==0)
     {
-        largest=2;
-    }
-    else
-    {
+        if(string1[i]!='\0' && string2[i]=='\0')
+        {   
+            largest=2;
+        }
+        else
+        {
         largest=1;
+    }
     }
     return largest;   
 }
