@@ -43,6 +43,7 @@ int stringcompare(char *string1, char *string2)
         {
            
             largest=2;
+            printf('')
             break;
         }
         else if(string2[i]!='\0' && string1[i]=='\0')
