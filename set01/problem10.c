@@ -37,7 +37,6 @@ int stringcompare(char *string1, char *string2)
         }
         else{
             largest=0;
-            break;
         }
     }
     if(largest==0)
@@ -48,8 +47,8 @@ int stringcompare(char *string1, char *string2)
         }
         else
         {
-        largest=1;
-    }
+            largest=1;
+        }
     }
     return largest;   
 }
