@@ -30,7 +30,7 @@ float square_root(float n)
         x0=sqrroot;
     } 
     return sqrroot; 
-}00000
+}
 void output(float n, float sqrroot)
 {
     if(n<0 || n==0)
