@@ -1,0 +1,15 @@
+Undefined command: "aiset".  Try "help".
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c, line 10.
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02/./problem06.exe 
+[New Thread 24424.0x2904]
+[New Thread 24424.0x5e60]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:10
+10	    input_string(str);
+12	    str_reverse(str, rev_str);
+str_reverse (str=0x61febc "helloo", rev_str=0x61fe58 "¨þa")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:23
+23	    int len = strlen(str);
+$1 = 6422204
+24	    int i, j = 0;
