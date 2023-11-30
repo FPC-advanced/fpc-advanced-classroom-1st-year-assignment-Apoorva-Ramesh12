@@ -34,7 +34,7 @@ int stringcompare(char *string1, char *string2)
             largest=1;
             break;
         }
-        else if(string1[i]<string2[i])
+        else //if(string1[i]<string2[i])
         {
             largest=2;
             break;
@@ -50,10 +50,10 @@ int stringcompare(char *string1, char *string2)
         //     largest=2;
         //     break;
         // }
-        else
-        {
-            largest=0;
-        }
+        // else
+        // {
+        //     largest=0;
+        // }
         
     }
     
