@@ -40,16 +40,16 @@ int stringcompare(char *string1, char *string2)
             i++;
 
         }
-        if(string1[i]!='\0' && string2[i]=='\0')
-        {
+        // if(string1[i]!='\0' && string2[i]=='\0')
+        // {
            
-            largest=1;
-        }
-        else if(string2[i]!='\0' && string1[i]=='\0')
-        {
-            largest=2;
-            break;
-        }
+        //     largest=1;
+        // }
+        // else if(string2[i]!='\0' && string1[i]=='\0')
+        // {
+        //     largest=2;
+        //     break;
+        // }
         else
         {
             largest=0;
