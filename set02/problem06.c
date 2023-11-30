@@ -21,14 +21,9 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-   int count,n=0;
-   while(str[n]!='\0')
-   {
-        n++;
-        break;
-   }
+   int len=strlen(str);
    int i,j=0;
-   for(i=n-1;i>=0;i--)
+   for(i=len-1;i>=0;i--)
    {
     rev_str[j]=str[i];
     j++;
