@@ -316,3 +316,76 @@ A debugging session is active.
 	Inferior 1 [process 19276] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++l
+1	// Write a C program to compare two strings, character by character.
+2	#include <stdio.h>
+3	#include <string.h>
+4	void input_two_strings(char *string1, char *string2);
+5	int stringcompare(char *string1, char *string2);
+6	void output(char *string1, char *string2, int result);
+7	int main()
+8	{
+9	    char string1[100], string2[100];
+10	    input_two_strings(string1, string2);
++b main
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem10.exe 
+[New Thread 15480.0x5704]
+[New Thread 15480.0x2c54]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:10
+10	    input_two_strings(string1, string2);
++n
+12	    result = stringcompare(string1, string2);
++step
+stringcompare (string1=0x61feb8 "hello", string2=0x61fe54 "hell")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:25
+25	    int largest=0, i = 0;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]==string2[i])
++n
+30	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]==string2[i])
++n
+30	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]==string2[i])
++n
+30	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]==string2[i])
++n
+30	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+60	    return largest;   
++n
+61	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:13
+13	    output(string1, string2, result);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 15480] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

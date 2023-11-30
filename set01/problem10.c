@@ -63,14 +63,14 @@ void output(char *string1, char *string2, int result)
 {
     if (result == 1)
     {
-        printf("The greater string among %s and %s is %s", string1, string2, string1);
+        printf("The greater string among %s and %s is %s\n", string1, string2, string1);
     }
     else if (result == 2)
     {
-        printf("The greater string among %s and %s is %s", string1, string2, string2);
+        printf("The greater string among %s and %s is %s\n", string1, string2, string2);
     }
     else
     {
-        printf("The strings are equal.");
+        printf("The strings are equal.\n");
     }
 }
