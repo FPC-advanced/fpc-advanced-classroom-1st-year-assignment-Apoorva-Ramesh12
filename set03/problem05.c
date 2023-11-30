@@ -38,14 +38,15 @@ void erotosthenes_sieve(int n, int a[n])
             {
                 a[j]=0;
             }
-            
+
         }
     }
 }
 void output(int n, int a[n])
 {
-    for(int i=2;i<=n;i++)
+    for(int i=0;i<=n;i++)
     {
+        for(int j=2)
         if(a[i]!=0)
         {
             printf("%d\n",a[i]);
