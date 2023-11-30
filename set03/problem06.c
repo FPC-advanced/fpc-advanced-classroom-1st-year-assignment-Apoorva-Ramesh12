@@ -34,11 +34,11 @@ int sub_str_index(char* string, char* substring)
                 if(string[i+j]!=substring[j])
                 break;
             }
-        if(substring[j]=='\0')
-        {
-            index=i;
-            break;
-        }
+            if(substring[j]=='\0')
+            {   
+                index=i;
+                break;
+            }
         }
     }
     return index;
