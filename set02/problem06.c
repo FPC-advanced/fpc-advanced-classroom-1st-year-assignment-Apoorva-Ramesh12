@@ -24,11 +24,11 @@ void str_reverse(char *str, char *rev_str)
    int count,n=0;
    while(str[n]!='\0')
    {
-        count++;
+        n++;
         break;
    }
    int i,j=0;
-   for(i=count-1;i>=0;i--)
+   for(i=n-1;i>=0;i--)
    {
     rev_str[j]=str[i];
     j++;
