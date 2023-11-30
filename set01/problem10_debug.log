@@ -452,3 +452,90 @@ A debugging session is active.
 	Inferior 1 [process 9572] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01/./problem10.exe 
+[New Thread 2128.0x33d0]
+[New Thread 2128.0x5aa0]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:10
+warning: Source file is more recent than executable.
+10	    input_two_strings(string1, string2);
++n
+12	    result = stringcompare(string1, string2);
++step
+stringcompare (string1=0x61feb8 "hell", string2=0x61fe54 "hello")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:25
+25	    int largest,i = 0;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]>string2[i])
++n
+33	        else if(string1[i]<string2[i])
++p string1[0]
+$1 = 104 'h'
++p string2[0]
+$2 = 104 'h'
++n
+40	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]>string2[i])
++n
+33	        else if(string1[i]<string2[i])
++n
+40	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]>string2[i])
++n
+33	        else if(string1[i]<string2[i])
++n
+40	            i++;
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++n
+28	        if(string1[i]>string2[i])
++n
+33	        else if(string1[i]<string2[i])
++n
+40	            i++;
++p string1[3]
+$3 = 108 'l'
++p string2[3]
+$4 = 108 'l'
++n
+26	    while(string1[i]!='\0' && string2[i]!='\0')
++p string1[4]
+$5 = 0 '\000'
++p string2[4]
+$6 = 111 'o'
++n
+60	    return largest;   
++p largest
+$7 = 1951882794
++n
+61	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set01\problem10.c:13
+13	    output(string1, string2, result);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++nq
+Undefined command: "nq".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 2128] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
