@@ -25,7 +25,11 @@ int stringcompare(char *string1, char *string2)
     int largest=0, i = 0;
     while(string1[i]!='\0' && string2[i]!='\0')
     {    
-        if(string1[i]>string2[i])
+        if(string1[i]==string2[i])
+        {
+            i++;
+        }
+        else if(string1[i]>string2[i])
         {
             largest=1;
             break;
@@ -35,11 +39,7 @@ int stringcompare(char *string1, char *string2)
             largest=2;
             break;
         }
-        else if(string1[i]==string2[i])
-        {
-            i++;
-
-        }
+        
         // if(string1[i]!='\0' && string2[i]=='\0')
         // {
            
