@@ -22,7 +22,7 @@ int input_number()
 int is_prime(int n)
 {
     int result=0;
-    if(n==0 || n==1)
+    if(n<=1)
     {
         result=1;
     }
