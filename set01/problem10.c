@@ -38,17 +38,16 @@ int stringcompare(char *string1, char *string2)
         else if(string1[i]==string2[i])
         {
             i++;
+
         }
-        if(string1[i]!='\0' &&string2[i]=='\0')
+        if(string1[i]!='\0' && string2[i]=='\0')
         {
            
-            largest=2;
-            printf("%s",string2)
-            break;
+            largest=1;
         }
         else if(string2[i]!='\0' && string1[i]=='\0')
         {
-            largest=1;
+            largest=2;
             break;
         }
         else

@@ -21,7 +21,7 @@ float input()
 }
 float square_root(float n)
 {
-    float x0=n,diff=1,acc=0.1; 
+    float x0=n/2,diff=1,acc=0.000001; 
     float sqrroot;
     while (diff>acc)
     {
