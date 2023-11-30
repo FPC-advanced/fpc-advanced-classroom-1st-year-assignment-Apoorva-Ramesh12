@@ -21,10 +21,13 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-   int len,count,n;
+   int count,n;
    while(str[n]!='\0')
+   {
+        count++;
+   }
    int i,j=0;
-   for(i=len-1;i>=0;i--)
+   for(i=count-1;i>=0;i--)
    {
     rev_str[j]=str[i];
     j++;
