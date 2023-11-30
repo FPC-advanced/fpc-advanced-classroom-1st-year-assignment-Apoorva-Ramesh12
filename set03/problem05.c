@@ -46,12 +46,9 @@ void output(int n, int a[n])
 {
     for(int i=0;i<=n;i++)
     {
-        for(int j=2;j<=a[i];j++)
+        if(a[i]!=0)
         {
-            if(a[i]!=0)
-            {
-                printf("%d\n",a[i]);
-            }
+            printf("%d\n",a[i]);
         }
     }
 }
