@@ -23,9 +23,9 @@ int main()
 }
 void input(int *num1, int *den1, int *num2, int *den2)
 {
-    printf("Enter the nummerator and denominator of the first fraction:");
+    printf("Enter the numerator and denominator of the first fraction:");
     scanf("%d %d",num1,den1);
-    printf("Enter the nummerator and denominator of the second fraction:");
+    printf("Enter the numerator and denominator of the second fraction:");
     scanf("%d %d",num2,den2);
 }
 
