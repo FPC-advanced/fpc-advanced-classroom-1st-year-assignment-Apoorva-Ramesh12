@@ -41,7 +41,7 @@ int sum_composite_numbers(int n,int a[n])
         {
             continue;
         }
-        for(int j=2;j*j<=a[i];j++)
+        for(int j=2;j<=a[i];j++)
         {
             if(a[i]%j==0)
             {
