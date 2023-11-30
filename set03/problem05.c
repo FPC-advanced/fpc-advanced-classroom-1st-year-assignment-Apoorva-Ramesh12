@@ -52,5 +52,6 @@ void output(int n, int a[n])
             {
                 printf("%d\n",a[i]);
             }
+        }
     }
 }
