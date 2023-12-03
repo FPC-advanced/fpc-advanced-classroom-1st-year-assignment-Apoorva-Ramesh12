@@ -39,7 +39,7 @@ int stringcompare(char *string1, char *string2)
 }
 void output(char *string1, char *string2, int result)
 {
-    if (result == 1)
+    if (result1)
     {
         printf("The greater string among %s and %s is %s\n", string1, string2, string1);
     }
