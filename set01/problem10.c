@@ -24,7 +24,7 @@ int stringcompare(char *string1, char *string2)
 {
     int largest=0,i;
     for(i=0;(string1[i]!='\0' || string2[i]!='\0') && string1[i]==string2[i];i++);
-    printf("%d %d",string1,string2);
+    printf("%d %d",string1[i],string2[i]);
     // if(string1[i]>string2[i])
     // {
         
