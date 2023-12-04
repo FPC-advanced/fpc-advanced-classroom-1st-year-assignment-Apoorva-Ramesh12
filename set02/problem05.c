@@ -23,15 +23,7 @@ int input()
 }
 int find_gcd(int a, int b)
 {
-    int gcd=1;
-    for(int i=1; i<= sqrt(a) && i<=sqrt(b);i++)
-    {
-        if(a%i==0 && b%i==0)
-        {
-            gcd=i;
-        }
-    }
-    return gcd;
+    if(a)
 }
 void output(int a, int b, int gcd)
 {
