@@ -1,5 +1,6 @@
 //Write a program to find GCD _(HCF)_ of two numbers.
 #include<stdio.h>
+
 int input();
 int find_gcd(int a, int b);
 void output(int a, int b, int gcd);
@@ -23,7 +24,7 @@ int input()
 int find_gcd(int a, int b)
 {
     int gcd=1;
-    for(int i=1; i<=a &&i<=b;i++)
+    for(int i=1; i<= sqrt(a) && i<=sqrt(b);i++)
     {
         if(a%i==0 && b%i==0)
         {
