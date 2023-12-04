@@ -23,7 +23,7 @@ int input()
 }
 int find_gcd(int a, int b)
 {
-    if(a==0 || b==)
+    if(a==0 || b==0)
 }
 void output(int a, int b, int gcd)
 {
