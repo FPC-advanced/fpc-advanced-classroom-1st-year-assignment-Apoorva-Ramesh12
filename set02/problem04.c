@@ -47,7 +47,9 @@ int sum_composite_numbers(int n,int a[n])
 {
     int sum=0;
     for(int i=0;i<n;i++)
-    
+    {
+        
+    }
     return sum;
 }
 void output(int sum)
