@@ -49,7 +49,10 @@ int sum_composite_numbers(int n,int a[n])
     for(int i=0;i<n;i++)
     {
         int comp=is_composite(a[i]);
-        
+        if(comp==1)
+        {
+            sum=sum+a[i];
+        }
     }
     return sum;
 }
