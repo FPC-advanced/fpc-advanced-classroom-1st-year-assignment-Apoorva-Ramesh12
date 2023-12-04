@@ -42,6 +42,7 @@ int is_composite(int n)
             composite=1;
         }
     }
+    
 }
 int sum_composite_numbers(int n,int a[n])
 {
