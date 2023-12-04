@@ -1,5 +1,6 @@
 //Write a program find whether a number is a composite number
 #include<stdio.h>
+#include<math.h>
 int input_number();
 int is_composite(int n);
 void output(int n, int result);
@@ -22,7 +23,7 @@ int input_number()
 int is_composite(int n)
 {
     int result=0;
-    for(int i=2;i<n);i++)
+    for(int i=2;i<sqrt(n);i++)
     {
         if(n%i==0)
         {
