@@ -35,7 +35,7 @@ void input_array(int n,int a[n])
 int is_composite(int n)
 {
     
-    for(int i=0;i<sqrt(n);i++)
+    for(int i=2;i<sqrt(n);i++)
     {
         if(n%i==0)
         {
