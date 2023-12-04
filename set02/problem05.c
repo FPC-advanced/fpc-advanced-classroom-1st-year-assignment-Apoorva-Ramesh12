@@ -31,5 +31,5 @@ int find_gcd(int a, int b)
 }
 void output(int a, int b, int gcd)
 {
-    printf("GCD of %d and %d is %d",a,b,gcd);
+    printf("GCD of %d and %d is %d/n",a,b,gcd);
 }
