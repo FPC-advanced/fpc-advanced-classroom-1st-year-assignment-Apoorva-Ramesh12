@@ -32,12 +32,12 @@ void input_array(int n,int a[n])
         scanf("%d",&a[i]);
     }
 }
-int is_composite(int n,int a[n])
+int is_composite(int n,)
 {
     int composite;
     for(int i=0;i<sqrt(n);i++)
     {
-        if(a[i]%i==0)
+        if(n%i==0)
         {
             composite=1;
         }
@@ -48,7 +48,7 @@ int sum_composite_numbers(int n,int a[n])
     int sum=0;
     for(int i=0;i<n;i++)
     {
-        
+
     }
     return sum;
 }
