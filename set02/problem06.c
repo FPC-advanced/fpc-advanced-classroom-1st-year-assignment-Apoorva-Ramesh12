@@ -22,6 +22,10 @@ void str_reverse(char *str, char *rev_str)
 {
     int len = strlen(str);
     int i, j = 0;
+    while(str[i]!='\0')
+    {
+        str
+    }
     // for (i = len - 1; i >= 0; i--)
     // {
     //     rev_str[j] = str[i];
