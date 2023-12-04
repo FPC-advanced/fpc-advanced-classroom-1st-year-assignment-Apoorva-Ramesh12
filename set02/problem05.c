@@ -28,6 +28,7 @@ int find_gcd(int a, int b)
         return b;
     }
     return find_gcd(b%a,a);
+    
 }
 void output(int a, int b, int gcd)
 {
