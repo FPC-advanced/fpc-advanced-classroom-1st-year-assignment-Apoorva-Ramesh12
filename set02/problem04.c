@@ -37,8 +37,10 @@ int is_composite(int n,int a[n])
     int composite;
     for(int i=0;i<sqrt(n);i++)
     {
-        if(a[i]%==0)
-
+        if(a[i]%i==0)
+        {
+            composite=1;
+        }
     }
 }
 int sum_composite_numbers(int n,int a[n])
@@ -46,7 +48,7 @@ int sum_composite_numbers(int n,int a[n])
     int sum=0;
     for(int i=0;i<n;i++)
     {
-        
+                
         {
             sum=sum+a[i];
         }
