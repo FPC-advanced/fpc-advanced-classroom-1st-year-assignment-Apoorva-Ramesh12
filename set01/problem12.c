@@ -64,13 +64,10 @@ Complex add_n_complex(int n, Complex c[n])
 }
 void output(int n, Complex c[n], Complex result)
 {
-    for(int i=0;i<=n-1;i++)
+    for(int i=0;i<n-1;i++)
     {
         printf("%f+%fi",c[i].real,c[i].imaginary);
         printf(" + ");       
     }
     printf("%f+%fi =  %f+%fi\n",c[n].real,c[n].imaginary,result.real,result.imaginary);
-
-       
-    
 }
