@@ -71,8 +71,9 @@ void output(int n, Complex c[n], Complex result)
         {
             printf(" + ");
         }
-        printf(" =  %f+%fi\n",result.real,result.imaginary);
+        
     }
+    printf(" =  %f+%fi\n",result.real,result.imaginary);
 
        
     
