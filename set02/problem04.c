@@ -1,6 +1,6 @@
 //Write a program to find Sum of composite number in an array of different numbers entered by the user.
 #include<stdio.h>
-
+#include<math.h>
 int input_array_size();
 void input_array(int n, int a[n]);
 int is_composite(int n,int a[n]);
@@ -34,7 +34,7 @@ void input_array(int n,int a[n])
 }
 int is_composite(int n,int a[n])
 {
-    for(int i=0;i<n;i++)
+    for(int i=0;i<sqrt(n);i++)
     {
 
     }
