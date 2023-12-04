@@ -23,8 +23,11 @@ int input()
 }
 int find_gcd(int a, int b)
 {
-    
+    if(a==0)
+    {
+        return b;
     }
+    return find_gcd(b%a,a);
 }
 void output(int a, int b, int gcd)
 {
