@@ -34,12 +34,12 @@ void input_array(int n,int a[n])
 }
 int is_composite(int n)
 {
-    int composite;
+    
     for(int i=0;i<sqrt(n);i++)
     {
         if(n%i==0)
         {
-            composite=1;
+            return 1;
         }
     }
     
