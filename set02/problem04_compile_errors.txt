@@ -32,3 +32,9 @@ Compilation started at 11/26/2023, 5:58:54 PM
 Compilation finished at 11/26/2023, 5:58:54 PM
 Compilation started at 11/30/2023, 12:22:46 PM
 Compilation finished at 11/30/2023, 12:22:46 PM
+Compilation started at 12/4/2023, 4:30:53 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem04.c:51:24: warning: comparison between pointer and integer
+         if(is_composite==1)
+                        ^~
+Compilation finished at 12/4/2023, 4:30:53 PM
