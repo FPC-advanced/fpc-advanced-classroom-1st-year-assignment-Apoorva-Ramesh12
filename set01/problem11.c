@@ -37,6 +37,6 @@ Complex add_complex(Complex a, Complex b)
 }
 void output(Complex a, Complex b, Complex sum)
 {
-    printf("Sum : %.2f+i%.2f",sum.real,sum.imaginary);
+    printf("Sum : %.2f+i%.2f\n",sum.real,sum.imaginary);
 }
 

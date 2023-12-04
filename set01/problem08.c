@@ -41,5 +41,5 @@ int sum_n_array(int n,int a[n])
 }
 void output(int n,int a[n],int sum)
 {
-    printf("Sum=%d",sum);
+    printf("Sum=%d\n",sum);
 }
