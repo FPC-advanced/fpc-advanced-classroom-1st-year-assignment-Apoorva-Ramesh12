@@ -63,7 +63,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
 	Triangle smallest=t[0];
 	for(int i=0;i<n;i++)
 	{
-		if(t[i].area>smallest.area)
+		if(fabs((smallest.area-t[i].area)>0))
 		{
 			smallest=t[i];
 		}
@@ -75,7 +75,7 @@ void output(int n,Triangle t[n],Triangle smallest)
 	for(int i=0;i<n;i++)
 	{
 		printf("Triangle No. %d\n",i+1);
-		printf("Base=%.2f  Altitude=%.2f\n",t[i].base,t[i].altitude);
+		printf("Base=%.2f  Altitude=%.2f  Area=%.2f\n",t[i].base,t[i].altitude,t[i].area);
 	}
 	printf("Smallest triangle:\n Base: %.2f Altitude: %.2f Area: %.2f",smallest.base,smallest.altitude,smallest.area);
 }

@@ -52,7 +52,7 @@ int sum_composite_numbers(int n,int a[n])
         int comp=is_composite(a[i]);
         if(comp==1)
         {
-            sum+=a[i];
+            sum=sum+a[i];
         }
     }
     return sum;

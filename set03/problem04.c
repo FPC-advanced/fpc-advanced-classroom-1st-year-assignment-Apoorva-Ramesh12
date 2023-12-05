@@ -21,16 +21,16 @@ int input()
 }
 int find_fibo(int n)
 {
-    int a=0,b=1,next;
+    int a=0,b=1,c;
     for(int i=2;i<=n;i++)
     {
-        next=a+b;
+        c=a+b;
         a=b;
-        b=next;
+        b=c;
     }
     return b;
 }
 void output(int n, int fibo)
 {
-    printf("The %dth number in the fibonacci series is %d",n,fibo);
+    printf("The %dth number in the fibonacci series is %d\n",n,fibo);
 }

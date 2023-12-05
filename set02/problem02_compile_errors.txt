@@ -14,3 +14,15 @@ Compilation started at 11/28/2023, 9:55:30 PM
 Compilation finished at 11/28/2023, 9:55:30 PM
 Compilation started at 11/30/2023, 12:17:15 PM
 Compilation finished at 11/30/2023, 12:17:16 PM
+Compilation started at 12/5/2023, 10:28:08 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c: In function 'check_scalene':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:26:7: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+    if(fabs(a-b)>0 && fabs(b-c)>0)
+       ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:26:7: warning: incompatible implicit declaration of built-in function 'fabs'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem02.c:26:7: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 12/5/2023, 10:28:09 AM
+Compilation started at 12/5/2023, 10:28:49 AM
+Compilation finished at 12/5/2023, 10:28:50 AM
+Compilation started at 12/5/2023, 10:29:34 AM
+Compilation finished at 12/5/2023, 10:29:35 AM

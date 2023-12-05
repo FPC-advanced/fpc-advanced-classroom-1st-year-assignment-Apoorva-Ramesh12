@@ -1,5 +1,6 @@
 //Write a program to find if a triangle is scalene.
 #include<stdio.h>
+#include<math.h>
 float input_side();
 int check_scalene(float a, float b,float c);
 void output(float a,float b,float c,int isscalene);
@@ -16,26 +17,22 @@ int main()
 }
 float input_side()
 {
-    int x;
+    float x;
     printf("Enter the side:");
-    scanf("%d",&x);
+    scanf("%f",&x);
     return x;
 }
 int check_scalene(float a,float b,float c)
 {
-    if(a!=b && b!=c) //&& c!=a)
-    {
-        return 0;
-    }
-    else
-    {
+   if(fabs(a-b)>0 && fabs(b-c)>0 && fabs(c-a)>0)
+   {
         return 1;
-    }
+   }
     
 }
 void output(float a,float b,float c, int isscalene)
 {
-    if(isscalene==0)
+    if(isscalene==1)
     {
         printf("The triangle is scalene.\n");
     }

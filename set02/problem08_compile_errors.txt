@@ -2,3 +2,27 @@ Compilation started at 12/5/2023, 7:55:16 AM
 Compilation finished at 12/5/2023, 7:55:16 AM
 Compilation started at 12/5/2023, 7:56:20 AM
 Compilation finished at 12/5/2023, 7:56:21 AM
+Compilation started at 12/5/2023, 10:34:43 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c: In function 'find_smallest_triangle':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+   if(fabs((t[i].area-smallest.area)>0))
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: incompatible implicit declaration of built-in function 'fabs'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 12/5/2023, 10:34:43 AM
+Compilation started at 12/5/2023, 10:39:40 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c: In function 'find_smallest_triangle':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+   if(fabs((t[i].area-smallest.area)>0))
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: incompatible implicit declaration of built-in function 'fabs'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 12/5/2023, 10:39:40 AM
+Compilation started at 12/5/2023, 10:40:17 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c: In function 'find_smallest_triangle':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+   if(fabs((smallest.area-t[i].area)>0))
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: warning: incompatible implicit declaration of built-in function 'fabs'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem08.c:66:6: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 12/5/2023, 10:40:18 AM

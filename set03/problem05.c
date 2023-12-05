@@ -30,7 +30,7 @@ void init_array(int n, int a[n])
 }
 void erotosthenes_sieve(int n, int a[n])
 {
-    for(int i=2;i*i<=n;i++)
+    for(int i=2;i<=sqrt(n);i++)
     {
         if(a[i]!=0)
         {

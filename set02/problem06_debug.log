@@ -56,3 +56,69 @@ A debugging session is active.
 	Inferior 1 [process 9960] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02/./problem06.exe 
+[New Thread 15568.0x1734]
+[New Thread 15568.0x5294]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:10
+10	    input_string(str);
++n
+12	    str_reverse(str, rev_str);
++step
+str_reverse (str=0x61febc "hello", rev_str=0x61fe58 "¨þa")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:23
+23	    int len=strlen(str);
++n
+24	    int i,j =0;
++n
+26	    for (i=len-1;i>j;i--,j++)
++n
+30	        temp=str[j];
++n
+31	        str[j]=str[i];
++n
+32	        str[i]=temp;
++n
+26	    for (i=len-1;i>j;i--,j++)
++p temp
+$1 = 104 'h'
++p str[0]
+$2 = 111 'o'
++p str[4]
+$3 = 104 'h'
++n
+30	        temp=str[j];
++n
+31	        str[j]=str[i];
++n
+32	        str[i]=temp;
++n
+26	    for (i=len-1;i>j;i--,j++)
++p str[3]
+$4 = 101 'e'
++n
+36	    str[j]='\0';
++n
+37	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:13
+13	    output(str, rev_str);
++n
+14	    return 0;
++nn
+Undefined command: "nn".  Try "help".
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 15568] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
