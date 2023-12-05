@@ -28,16 +28,6 @@ void str_reverse(char *str, char *rev_str)
     //     j++;
     // }
     // rev_str[j] = '\0';
-    int len=strlen(str);
-    int i,j=0;
-    char temp;
-    for(i=len-1;i>j;i--,j++) 
-    {
-        temp=str[j];
-        str[j]=str[i];
-        str[i]=temp;
-    }
-
 }
 void output(char *a, char *rev_str)
 {
