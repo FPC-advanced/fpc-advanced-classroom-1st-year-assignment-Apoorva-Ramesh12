@@ -43,7 +43,7 @@ Triangle input_triangle()
 void input_n_triangles(int n, Triangle t[n])
 {
 	for(int i=0;i<n;i++)
-	{
+	{	
 		t[i]=input_triangle();
 	}
 }
