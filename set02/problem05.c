@@ -23,18 +23,12 @@ int input()
 }
 int find_gcd(int a, int b)
 {
-    // if(a==0)
-    // {
-    //     return b;
-    // }
-    // return find_gcd(b%a,a);
-    while(a!=0)
+    if(a==0)
     {
-        int temp=a;
-        a=b%a;
-        b=temp;
+        return b;
     }
-    return b;
+    return find_gcd(b%a,a);
+    
 }
 void output(int a, int b, int gcd)
 {
