@@ -20,16 +20,26 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-    int len = strlen(str);
-    int i, j = 0;
-    for (i = len - 1; i >= 0; i--)
+    // int len = strlen(str);
+    // int i, j = 0;
+    // for (i = len - 1; i >= 0; i--)
+    // {
+    //     rev_str[j] = str[i];
+    //     j++;
+    // }
+    // rev_str[j] = '\0';
+    int len=strlen(str);
+    int i,j=0;
+    char temp;
+    for(i=len-1;i>j;i--,j++) 
     {
-        rev_str[j] = str[i];
-        j++;
+        temp=str[j];
+        str[j]=str[i];
+        str[i]=temp;
     }
-    rev_str[j] = '\0';
+
 }
 void output(char *a, char *rev_str)
 {
-    printf("Reversed string:%s \n", rev_str);
+    printf("Reversed string:%s \n",a);
 }

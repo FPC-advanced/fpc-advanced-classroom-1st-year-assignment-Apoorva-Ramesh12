@@ -37,3 +37,16 @@ Compilation started at 12/4/2023, 2:49:25 PM
 Compilation finished at 12/4/2023, 2:49:25 PM
 Compilation started at 12/4/2023, 2:50:18 PM
 Compilation finished at 12/4/2023, 2:50:19 PM
+Compilation started at 12/4/2023, 10:30:17 PM
+Compilation finished at 12/4/2023, 10:30:17 PM
+Compilation started at 12/4/2023, 10:30:32 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c: In function 'output':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:44:36: error: 'str' undeclared (first use in this function)
+     printf("Reversed string:%s \n",str);
+                                    ^~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set02\problem06.c:44:36: note: each undeclared identifier is reported only once for each function it appears in
+Compilation finished at 12/4/2023, 10:30:32 PM
+Compilation started at 12/4/2023, 10:30:45 PM
+Compilation finished at 12/4/2023, 10:30:45 PM
+Compilation started at 12/4/2023, 10:31:45 PM
+Compilation finished at 12/4/2023, 10:31:46 PM

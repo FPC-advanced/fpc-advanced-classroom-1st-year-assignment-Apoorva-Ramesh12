@@ -23,13 +23,20 @@ int input()
 }
 int find_gcd(int a, int b)
 {
-    if(a==0)
+    // if(a==0)
+    // {
+    //     return b;
+    // }
+    // return find_gcd(b%a,a);
+    while(a!=0)
     {
-        return b;
+        int temp=a;
+        a=b%a;
+        b=temp;
     }
-    return find_gcd(b%a,a);
+    return b;
 }
 void output(int a, int b, int gcd)
 {
-    printf("GCD of %d and %d is %d/n",a,b,gcd);
+    printf("GCD of %d and %d is %d\n",a,b,gcd);
 }
