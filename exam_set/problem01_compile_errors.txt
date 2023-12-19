@@ -1,0 +1,23 @@
+Compilation started at 12/19/2023, 10:39:00 AM
+Compilation finished at 12/19/2023, 10:39:01 AM
+Compilation started at 12/19/2023, 10:39:34 AM
+Compilation finished at 12/19/2023, 10:39:34 AM
+Compilation started at 12/19/2023, 12:30:23 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem01.c:17:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem01.c: In function 'output':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem01.c:49:44: error: expected expression before ')' token
+       printf("%d is a factorial number.\n",);
+                                            ^
+Compilation finished at 12/19/2023, 12:30:23 PM
+Compilation started at 12/19/2023, 12:31:38 PM
+Compilation finished at 12/19/2023, 12:31:38 PM
+Compilation started at 12/19/2023, 12:34:24 PM
+Compilation finished at 12/19/2023, 12:34:24 PM
+Compilation started at 12/19/2023, 12:39:28 PM
+Compilation finished at 12/19/2023, 12:39:29 PM
+Compilation started at 12/19/2023, 12:43:38 PM
+Compilation finished at 12/19/2023, 12:43:39 PM
+Compilation started at 12/19/2023, 12:44:46 PM
+Compilation finished at 12/19/2023, 12:44:46 PM

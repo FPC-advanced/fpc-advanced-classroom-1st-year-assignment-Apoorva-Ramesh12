@@ -1,0 +1,112 @@
+Compilation started at 12/19/2023, 1:58:41 PM
+Compilation finished at 12/19/2023, 1:58:42 PM
+Compilation started at 12/19/2023, 2:30:53 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:13:9: error: redeclaration of 'f' with no linkage
+     int f[n],g[n];
+         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:11:9: note: previous declaration of 'f' was here
+     int f[n];
+         ^
+Compilation finished at 12/19/2023, 2:30:53 PM
+Compilation started at 12/19/2023, 2:31:05 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:13:9: error: redeclaration of 'f' with no linkage
+     int f[n],g[n];
+         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:11:9: note: previous declaration of 'f' was here
+     int f[n];
+         ^
+Compilation finished at 12/19/2023, 2:31:05 PM
+Compilation started at 12/19/2023, 2:31:32 PM
+C:\Users\AP\AppData\Local\Temp\ccmEu4hL.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/exam_set/problem02.c:14: undefined reference to `find_factorial'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:31:32 PM
+Compilation started at 12/19/2023, 2:31:52 PM
+C:\Users\AP\AppData\Local\Temp\ccAryrDn.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/exam_set/problem02.c:14: undefined reference to `find_factorial'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:31:53 PM
+Compilation started at 12/19/2023, 2:32:29 PM
+Compilation finished at 12/19/2023, 2:32:30 PM
+Compilation started at 12/19/2023, 2:42:58 PM
+Compilation finished at 12/19/2023, 2:42:58 PM
+Compilation started at 12/19/2023, 2:52:57 PM
+C:\Users\AP\AppData\Local\Temp\ccc0YZrJ.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/exam_set/problem02.c:14: undefined reference to `find_factorial'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:52:57 PM
+Compilation started at 12/19/2023, 2:53:17 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:14:5: warning: implicit declaration of function 'find_factorial' [-Wimplicit-function-declaration]
+     find_factorial(n, f, g);
+     ^~~~~~~~~~~~~~
+C:\Users\AP\AppData\Local\Temp\ccSDMljJ.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/exam_set/problem02.c:14: undefined reference to `find_factorial'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:53:17 PM
+Compilation started at 12/19/2023, 2:53:58 PM
+Compilation finished at 12/19/2023, 2:53:58 PM
+Compilation started at 12/19/2023, 3:00:30 PM
+Compilation finished at 12/19/2023, 3:00:31 PM
+Compilation started at 12/19/2023, 3:01:49 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c: In function 'main':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:74:9: error: array size missing in 'g'
+     int g[];
+         ^
+Compilation finished at 12/19/2023, 3:01:50 PM
+Compilation started at 12/19/2023, 3:02:22 PM
+Compilation finished at 12/19/2023, 3:02:22 PM
+Compilation started at 12/19/2023, 3:09:17 PM
+Compilation finished at 12/19/2023, 3:09:17 PM
+Compilation started at 12/19/2023, 3:09:51 PM
+Compilation finished at 12/19/2023, 3:09:51 PM
+Compilation started at 12/19/2023, 3:10:23 PM
+Compilation finished at 12/19/2023, 3:10:23 PM
+Compilation started at 12/19/2023, 3:11:59 PM
+Compilation finished at 12/19/2023, 3:12:00 PM
+Compilation started at 12/19/2023, 3:13:03 PM
+Compilation finished at 12/19/2023, 3:13:04 PM
+Compilation started at 12/19/2023, 3:15:23 PM
+Compilation finished at 12/19/2023, 3:15:23 PM
+Compilation started at 12/19/2023, 3:23:21 PM
+Compilation finished at 12/19/2023, 3:23:22 PM
+Compilation started at 12/19/2023, 3:28:48 PM
+Compilation finished at 12/19/2023, 3:28:49 PM
+Compilation started at 12/19/2023, 3:31:01 PM
+Compilation finished at 12/19/2023, 3:31:02 PM
+Compilation started at 12/19/2023, 3:34:31 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c: In function 'factorial_array':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:52:13: error: expected ';' before 'j'
+             j++;
+             ^
+Compilation finished at 12/19/2023, 3:34:31 PM
+Compilation started at 12/19/2023, 3:35:04 PM
+Compilation finished at 12/19/2023, 3:35:04 PM
+Compilation started at 12/19/2023, 3:42:10 PM
+Compilation finished at 12/19/2023, 3:42:10 PM
+Compilation started at 12/19/2023, 3:43:36 PM
+Compilation finished at 12/19/2023, 3:43:36 PM
+Compilation started at 12/19/2023, 3:48:58 PM
+Compilation finished at 12/19/2023, 3:48:58 PM
+Compilation started at 12/19/2023, 3:49:38 PM
+Compilation finished at 12/19/2023, 3:49:38 PM
+Compilation started at 12/19/2023, 3:52:35 PM
+Compilation finished at 12/19/2023, 3:52:35 PM
+Compilation started at 12/19/2023, 3:57:18 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:57:19 PM
+Compilation started at 12/19/2023, 3:57:27 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:57:28 PM
+Compilation started at 12/19/2023, 3:57:37 PM
+Compilation finished at 12/19/2023, 3:57:37 PM
+Compilation started at 12/19/2023, 3:58:04 PM
+Compilation finished at 12/19/2023, 3:58:05 PM
+Compilation started at 12/19/2023, 3:59:07 PM
+Compilation finished at 12/19/2023, 3:59:08 PM
+Compilation started at 12/19/2023, 4:02:34 PM
+Compilation finished at 12/19/2023, 4:02:34 PM

@@ -1,0 +1,89 @@
++b main
+Breakpoint 1 at 0x401477: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c, line 8.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set/./problem02.exe 
+[New Thread 16752.0x33ec]
+[New Thread 16752.0x7440]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:8
+8	{
++n
+10	    n = input_array_size();
++n
+11	    int f[n];
++p n
+$1 = 4
++p n
+$2 = 4
++n
+12	    input_array(n, f);
++n
+13	    int g[n];
++n
+14	    is_factorial(n, f, g);
++step
+is_factorial (n=4, f=0x61fecc, g=0x61feac)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem02.c:62
+62	    for(int i=0;i<n;i++)
++n
+64	        int fact=1;
++n
+66	        for(j=1;j<f[i];j++)
++n
+68	            fact=factorial(j);
++p f[0]
+$3 = 12
++p fact
+$4 = 1
++n
+66	        for(j=1;j<f[i];j++)
++n
+68	            fact=factorial(j);
++n
+66	        for(j=1;j<f[i];j++)
++p fact
+$5 = 2
++p f[1]
+$6 = 24
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++n
++q
+A debugging session is active.
+
+	Inferior 1 [process 16752] will be killed.
+
+Quit anyway? (y or n) Please answer y or n.
+A debugging session is active.
+
+	Inferior 1 [process 16752] will be killed.
+
+Quit anyway? (y or n) 
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
