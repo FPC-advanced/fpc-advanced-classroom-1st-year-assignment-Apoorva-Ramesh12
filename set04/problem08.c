@@ -75,7 +75,10 @@ Fraction add_n_fractions(int n, Fraction f[n])
         sum.num=sum.num/gcd_fract;
         sum.den=sum.den/gcd_fract;
     }
-    if(sum.den)
+    if(sum.den==1)
+    {
+        return
+    }
     return sum;
 }
 void output(int n, Fraction f[n], Fraction sum)
