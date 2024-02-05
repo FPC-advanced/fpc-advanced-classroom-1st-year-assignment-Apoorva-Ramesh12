@@ -79,6 +79,7 @@ Fraction add_n_fractions(int n, Fraction f[n])
 }
 void output(int n, Fraction f[n], Fraction sum)
 {
+    if(sum)
     int i=0;
     for(int i=0;i<n-1;i++)
     {
