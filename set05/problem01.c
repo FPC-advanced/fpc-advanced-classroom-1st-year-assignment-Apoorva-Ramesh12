@@ -11,7 +11,9 @@ void dist(Point a, Point b, float *res);
 void output(Point a, Point b, float res);
 int main()
 {
-  Point p1,p2;
-  p1=input();
-  p2=input()
+  Point a,b;
+  a=input();
+  b=input();
+  
+
 }
