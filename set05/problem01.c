@@ -21,5 +21,6 @@ int main()
 }
 Point input()
 {
-  printf("Enter the x-coordinate of the first ");
+  printf("Enter the x-coordinate of the first point:");
+  scanf("%f",&)
 }
