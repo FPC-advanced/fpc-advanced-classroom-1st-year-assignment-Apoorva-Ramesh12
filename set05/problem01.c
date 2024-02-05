@@ -24,10 +24,10 @@ Point input()
   Point a,b;
   printf("Enter the x-coordinate of the first point:");
   scanf("%f",&a.x);
-  printf("Enter the x-coordinate of the first point:");
+  printf("Enter the y-coordinate of the first point:");
   scanf("%f",&a.y);
-  printf("Enter the x-coordinate of the first point:");
+  printf("Enter the x-coordinate of the second point:");
   scanf("%f",&b.x);
-  printf("Enter the x-coordinate of the first point:");
-  scanf("%f",&a.x);
+  printf("Enter the y-coordinate of the second point:");
+  scanf("%f",&b.y);
 }
