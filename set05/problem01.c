@@ -1,4 +1,5 @@
 //Write a program to find the distance between two points.
+#include<stdo
 struct _point {
   float x;
   float y;
@@ -30,5 +31,5 @@ Point input()
 }
 void dist(Point a, Point b, float *res)
 {
-  
+  *res=
 }
