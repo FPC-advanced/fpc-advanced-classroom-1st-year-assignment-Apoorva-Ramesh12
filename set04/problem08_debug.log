@@ -45,3 +45,21 @@ $3 = 1
 73	    if(gcd_fract!=1)
 +p sum
 $4 = {num = 20, den = 5}
++n
+75	        sum.num=sum.num/gcd_fract;
++n
+76	        sum.den=sum.den/gcd_fract;
++n
+78	    return sum;
++p sum
+$5 = {num = 4, den = 1}
++n
+79	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem08.c:23
+23	    output(n,f,sum);
++c
+Continuing.
+[Inferior 1 (process 2924) exited normally]
++q
