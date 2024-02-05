@@ -44,7 +44,7 @@ void input_n_fractions(int n, Fraction f[n])
     int i;
     for(i=0;i<n;i++)
     {
-        printf("Fraction no. %d",i+1);
+        printf("Fraction no. %d\n",i+1);
         f[i]=input_fraction();
     }
 }
