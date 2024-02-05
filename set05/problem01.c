@@ -14,6 +14,8 @@ int main()
   Point a,b;
   a=input();
   b=input();
+  Point res;
+  dist(a,b,&res);
   
 
 }
