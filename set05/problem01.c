@@ -21,9 +21,14 @@ int main()
 }
 Point input()
 {
-  Point a,b;
+  Point a;
   printf("Enter the x-coordinate of the point:");
   scanf("%f",&a.x);
   printf("Enter the y-coordinate of the point:");
-  scanf("%f",&a.x);
+  scanf("%f",&a.y);
+  return a;
+}
+void dist(Point a, Point b, float *res)
+{
+  
 }
