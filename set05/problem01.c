@@ -20,3 +20,6 @@ int main()
   return 0;
 }
 Point input()
+{
+  printf("Enter the x-coordinate of the first ");
+}
