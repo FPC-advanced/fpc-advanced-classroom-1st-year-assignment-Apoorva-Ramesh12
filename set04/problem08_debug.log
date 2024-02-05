@@ -27,3 +27,21 @@ add_n_fractions (n=3, f=0x61fed0)
 70	        sum=add_fractions(f[i],sum);
 +n
 68	    for(int i=0;i<n;i++)
++p i
+$2 = 0
++n
+70	        sum=add_fractions(f[i],sum);
++n
+68	    for(int i=0;i<n;i++)
++p i
+$3 = 1
++n
+70	        sum=add_fractions(f[i],sum);
++n
+68	    for(int i=0;i<n;i++)
++n
+72	    int gcd_fract=find_gcd(sum.num,sum.den);
++n
+73	    if(gcd_fract!=1)
++p sum
+$4 = {num = 20, den = 5}
