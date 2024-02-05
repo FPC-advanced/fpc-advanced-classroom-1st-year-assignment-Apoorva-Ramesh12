@@ -79,9 +79,9 @@ Fraction add_n_fractions(int n, Fraction f[n])
 }
 void output(int n, Fraction f[n], Fraction sum)
 {
+    int i = 0;
     if (sum.den == 1)
     {
-        int i = 0;
         for (i = 0; i < n - 1; i++)
         {
             printf("%d/%d", f[i].num, f[i].den);
