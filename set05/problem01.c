@@ -1,5 +1,6 @@
 //Write a program to find the distance between two points.
-#include<stdo
+#include<stdio.h>
+#include<math.h>
 struct _point {
   float x;
   float y;
@@ -31,5 +32,5 @@ Point input()
 }
 void dist(Point a, Point b, float *res)
 {
-  *res=
+  *res=sqrt(pow())
 }
