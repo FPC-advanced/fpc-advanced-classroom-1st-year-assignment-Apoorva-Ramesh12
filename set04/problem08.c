@@ -65,7 +65,7 @@ int find_gcd(int a, int b)
 }
 Fraction add_n_fractions(int n, Fraction f[n])
 {
-    Fraction sum;
+    Fraction sum={0,1};
     for(int i=0;i<n;i++)
     {
         sum=add_fractions(f[i],sum);
