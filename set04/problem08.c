@@ -53,6 +53,7 @@ Fraction add_fractions(Fraction f1, Fraction f2)
     Fraction res;
     res.num=(f2.den*f1.num)+(f1.den*f2.num);
     res.den=f1.den*f2.den;
+    return res;
 }
 int find_gcd(int a, int b)
 {
