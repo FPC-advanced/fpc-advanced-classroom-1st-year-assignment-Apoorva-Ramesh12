@@ -11,5 +11,6 @@ void dist(Point a, Point b, float *res);
 void output(Point a, Point b, float res);
 int main()
 {
-  
+  Point pnt;
+  pnt
 }
