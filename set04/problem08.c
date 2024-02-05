@@ -91,6 +91,12 @@ void output(int n, Fraction f[n], Fraction sum)
     }
     else
     {
-
+         int i = 0;
+        for (int i = 0; i < n - 1; i++)
+        {
+            printf("%d/%d", f[i].num, f[i].den);
+            printf(" + ");
+        }
+        printf("%d/%d = %d/%d\n", f[i].num, f[i].den, sum.num,sum.den);
     }
 }
