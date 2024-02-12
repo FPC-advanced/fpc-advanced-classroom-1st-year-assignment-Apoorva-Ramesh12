@@ -6,8 +6,9 @@ int sum_n_array(int n, int a[n]);
 void output(int n, int a[n],int sum);
 int main()
 {
-    int n,a;
+    int n;
     n=input_array_size();
+    int a[n];
     input(n,a);
     int sum=0;
     sum=sum_n_array(n,a);

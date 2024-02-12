@@ -1,0 +1,22 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c, line 9.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem04.exe 
+[New Thread 17396.0x37a4]
+[New Thread 17396.0x2f68]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem04.c:9
+9	    n=input();
++cd "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03"
+"c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03": Invalid argument.
++gcc -g "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\ads.c" -o "c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\ads.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\ads.exe"
+Undefined command: "".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 17396] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
