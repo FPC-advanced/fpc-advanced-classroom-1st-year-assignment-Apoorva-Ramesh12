@@ -13,3 +13,10 @@ Breakpoint 1, 0x00401477 in main ()
 +n
 11	    n=input_array_size();
 +n
+12	    int a[n];
++p n
+$1 = 20
++n
+13	    init_array(n,a);
++n
+14	    erotosthenes_sieve(n,a);
