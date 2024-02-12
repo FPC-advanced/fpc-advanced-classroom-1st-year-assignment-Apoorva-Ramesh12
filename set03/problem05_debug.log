@@ -67,3 +67,7 @@ erotosthenes_sieve (n=0, a=0x61fee8)
 34	    for(int i=2;i<=sqrt(n);i++)
 +n
 45	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem05.c:15
+15	    output(n,a);
