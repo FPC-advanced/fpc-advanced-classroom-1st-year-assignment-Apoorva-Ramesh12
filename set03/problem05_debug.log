@@ -1,0 +1,15 @@
++b main
+Breakpoint 1 at 0x401477: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem05.c, line 9.
++rr
+Undefined command: "rr".  Try "help".
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem05.exe 
+[New Thread 9608.0x2b98]
+[New Thread 9608.0x21fc]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem05.c:9
+9	{
++n
+11	    n=input_array_size();
++n
