@@ -30,11 +30,11 @@ Fraction smallest_fraction(Fraction f1,Fraction f2,Fraction f3)
     double frac2=(double)f2.num/f2.den;
     double frac3=(double)f3.num/f3.den;
     
-    if(frac1<frac2 && frac1<frac3)
+    if(fabs((frac1-frac2)>0) && fabs((frac1-frac3)>0))
     {
         return f1;
     }
-    else if(frac2<frac1 &&frac2<frac3)
+    else if(fabs((frac2-frac3)>0))
     {
         return f2;
     }

@@ -23,3 +23,11 @@ Compilation started at 11/16/2023, 9:48:50 PM
 Compilation finished at 11/16/2023, 9:48:50 PM
 Compilation started at 11/26/2023, 7:45:38 PM
 Compilation finished at 11/26/2023, 7:45:38 PM
+Compilation started at 2/12/2024, 1:09:16 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c: In function 'smallest_fraction':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c:33:8: warning: implicit declaration of function 'fabs' [-Wimplicit-function-declaration]
+     if(fabs((frac1-frac2)>0) && fabs((frac1-frac3)>0))
+        ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c:33:8: warning: incompatible implicit declaration of built-in function 'fabs'
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem02.c:33:8: note: include '<math.h>' or provide a declaration of 'fabs'
+Compilation finished at 2/12/2024, 1:09:17 PM
