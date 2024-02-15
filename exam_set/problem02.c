@@ -42,14 +42,16 @@ int is_factorial(int a)
 
 }
 void factorial_array(int n, int f[n], int g[n])
-{
-
+{   
+    int temp;
     int j=0;
     for(int i=0;i<n;i++)
     {
         if(is_factorial(f[i])==1)
         {
-            g[j++]=f[i];
+           temp=f[i];
+           f[i]=g[j];
+           g[j++]=f[i]; 
         }
     }
 }
