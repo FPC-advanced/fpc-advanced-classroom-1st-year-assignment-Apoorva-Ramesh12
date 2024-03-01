@@ -275,3 +275,36 @@ A debugging session is active.
 	Inferior 1 [process 11316] will be killed.
 
 Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++b main
+Breakpoint 1 at 0x401477: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem05.c, line 9.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem05.exe 
+[New Thread 23548.0x6c38]
+[New Thread 23548.0x59f4]
+
+Breakpoint 1, 0x00401477 in main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem05.c:9
+warning: Source file is more recent than executable.
+9	{
++n
+11	    n=input_array_size();
++n
+12	    int a[n];
++n
+13	    init_array(n,a);
++n
+14	    erotosthenes_sieve(n,a);
++p a[0]
+$1 = 0
++p a[200]
+$2 = 200
++n
+15	    output(n,a);
++n
+16	    return 0;
++n
+17	}
++c
+Continuing.
+[Inferior 1 (process 23548) exited normally]
++q
