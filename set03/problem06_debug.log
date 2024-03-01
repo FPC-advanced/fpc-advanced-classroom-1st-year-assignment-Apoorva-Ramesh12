@@ -1,0 +1,68 @@
++b main
+Breakpoint 1 at 0x401471: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem06.exe 
+[New Thread 15040.0xe8c]
+[New Thread 15040.0x2c6c]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:10
+10	    input_string(a,b);
++n
+12	    index=sub_str_index(a,b);
++s
+sub_str_index (string=0x61feb8 "hello", 
+    substring=0x61fe54 "ell")
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:26
+26	    int index=-1;
++n
+27	    for(int i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[0])
++n
+27	    for(int i=0;string[i]!='\0';i++)
++n
+29	        if(string[i]==substring[0])
++n
+32	            for(j=0;substring[j]!='\0';j++)
++n
+34	                if(string[i+j]!=substring[j])
++n
+32	            for(j=0;substring[j]!='\0';j++)
++n
+34	                if(string[i+j]!=substring[j])
++n
+32	            for(j=0;substring[j]!='\0';j++)
++n
+34	                if(string[i+j]!=substring[j])
++n
+32	            for(j=0;substring[j]!='\0';j++)
++n
+37	            if(substring[j]=='\0')
++n
+39	                index=i;
++n
+40	                break;
++n
+44	    return index;
++n
+45	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem06.c:13
+13	    output(a,b,index);
++n
+14	    return 0;
++p index
+$1 = 1
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 15040] will be killed.
+
+Quit anyway? (y or n) 
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
