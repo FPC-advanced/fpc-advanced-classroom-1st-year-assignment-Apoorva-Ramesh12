@@ -21,17 +21,16 @@ int input()
 }
 int compare(int a,int b,int c)
 {
-    if(a>=b && a>=c)
+    if(b>a)
     {
-        return a;
+        a = b;
     }
-    else if(b>=c)
+    if(c>a)
     {
-        return b;
+        a=c;
     }
-    else{
-        return c;
-    }
+    return a;
+        
 }
 void output(int a, int b, int c, int largest)
 {

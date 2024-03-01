@@ -1,7 +1,8 @@
 #include <stdio.h>
 int input_array_size();
 void input_array(int n, int f[n]);
-int is_factorial(int a);
+int factorial(int n);
+int check_factorial(int a);
 void factorial_array(int n, int f[n], int g[n]);
 void output(int n, int f[n], int g[n]);
 int main()
@@ -30,28 +31,40 @@ void input_array(int n, int f[n])
         scanf("%d", &f[i]);
     }
 }
-int is_factorial(int a)
+int factorial(int n)
 {
-    int fact=1;
-    int i;
-    for(i=1;i<=a;i++)
+    int fact = 1;
+    for (int i = 2; i <= n; i++)
     {
-        fact=fact*i;
+        fact = fact * i;
     }
-    return (fact==a);
-
+    return fact;
+}
+int check_factorial(int n)
+{
+    if (n == 1)
+    {
+        return 1;
+    }
+    int i;
+    for (i = 2; factorial(i) < n; i++)
+        ;
+    if (factorial(i) == n)
+    {
+        return 1;
+    }
 }
 void factorial_array(int n, int f[n], int g[n])
-{   
-    int temp;
-    int j=0;
-    for(int i=0;i<n;i++)
+{
+    for (int i = 0, j = 0; i < n; i++, j++)
     {
-        if(is_factorial(f[i])==1)
+        if (check_factorial(f[i]) == 1)
         {
-           temp=f[i];
-           f[i]=g[j];
-           g[j++]=f[i]; 
+            g[j] = f[i];
+        }
+        else
+        {
+            g[j] = 0;
         }
     }
 }

@@ -1,0 +1,102 @@
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem01.exe 
+[New Thread 10812.0x2144]
+[New Thread 10812.0x1eb4]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10
+10	    input(&x1,&y1,&x2,&y2);
++s
+input (x1=0x61ff18, y1=0x61ff10, x2=0x61ff14, y2=0x61ff0c)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:18
+18	    printf("Enter the x coordinate of the first point:");
++n
+19	    scanf("%f",x1);
++n
+20	    printf("Enter the y coordinate of the first point:");
++n
+21	    scanf("%f",y1);
++n
+22	    printf("Enter the x coordinate of the second point:");
++n
+23	    scanf("%f",x2);
++n
+24	    printf("Enter the y coordinate of the second point:");
++n
+25	    scanf("%f",y2);
++n
+27	}
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:12
+12	    distance=find_distance(x1,y1,x2,y2);
++p *x1
+Attempt to take contents of a non-pointer value.
++p x1
+$1 = 4
++p x2
+$2 = 6
++p y1
+$3 = 8
++p y2
+$4 = 5
++n
+13	    output(x1,y1,x2,y2,distance);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 10812] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem01.exe 
+[New Thread 10636.0x5484]
+[New Thread 10636.0x5430]
+[Inferior 1 (process 10636) exited normally]
++q
++b main
+Breakpoint 1 at 0x40146e: file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c, line 10.
++r
+Starting program: c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03/./problem01.exe 
+[New Thread 21276.0x1700]
+[New Thread 21276.0x518]
+
+Breakpoint 1, main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:10
+10	    input(&x1,&y1,&x2,&y2);
++n
+12	    distance=find_distance(x1,y1,x2,y2);
++s
+find_distance (x1=2, y1=3, x2=4, y2=5)
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:31
+31	    distance=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
++n
+32	    return distance;
++n
+33	}
++p distance
+$1 = 2.82842708
++n
+main ()
+    at c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set03\problem01.c:13
+13	    output(x1,y1,x2,y2,distance);
++n
+14	    return 0;
++n
+15	}
++n
+0x00401288 in __register_frame_info ()
++q
+A debugging session is active.
+
+	Inferior 1 [process 21276] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

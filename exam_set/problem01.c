@@ -30,13 +30,14 @@ int factorial(int n)
     return fact;
 }
 int check_factorial(int n)
-{   
-    if(n==1)
+{
+    if (n == 1)
     {
         return 1;
     }
     int i;
-    for ( i = 2; factorial(i) < n; i++);
+    for (i = 2; factorial(i) < n; i++)
+        ;
     if (factorial(i) == n)
     {
         return 1;

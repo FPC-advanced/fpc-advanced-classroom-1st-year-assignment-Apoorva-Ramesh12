@@ -1,16 +1,16 @@
 //Write a program to evaluate a polynomial at a given point using Horner's Method
 #include<stdio.h>
-int input_degree();
-void input_coefficients(int n, float a[n]);
-float input_x();
-float evaluate_polynomial(int n, float a[n], float x);
+#include<math.h>
+int input_degree(); //Degree of the polynomial
+void input_coefficients(int n, float a[n]); //Input the coefficients of the polynomial including the extra coefficient
+float input_x(); //Input the value of x at which the polynomial is calculated
+float evaluate_polynomial(int n, float a[n], float x); //Calculate the value of the polynomial
 void output(int n, float a[n], float x, float result);
 int main()
 {
-    int d;
-    d=input_degree();
     int n;
-    float a[100];
+    n=input_degree();
+    float a[n+1];
     input_coefficients(n,a);
     float x;
     x=input_x();
@@ -21,37 +21,51 @@ int main()
 }
 int input_degree()
 {
-    int x;
+    int x; 
     printf("Enter the degree of the polynomial:");
     scanf("%d",&x);
     return x;
 }
 void input_coefficients(int n, float a[n])
 {
-    printf("Enter the co-efficients of the polynomial:");
+    printf("Enter the coefficients:");
     for(int i=0;i<=n;i++)
     {
-        printf("\nEnter the co-efficient for %d term:",i);
+        printf("\nEnter the coefficient for %d term:",i);
         scanf("%f",&a[i]);
     }
 }
 float input_x()
 {
-    float x; 
+    float a;
     printf("Enter the value of x:");
-    scanf("%f",&x);
-    return x;
+    scanf("%f",&a);
+    return a;
 }
-float evaluate_polynomial(int n,float a[n],float x)
+float evaluate_polynomial(int n, float a[n], float x)
 {
-    float result; //result=a[n]
+    float sum=a[n];
     for(int i=n;i>=0;i--)
     {
-        result=(result+a[i])*x;
+        sum=sum+a[i]*x;
     }
-    return result;
+    return sum;
 }
 void output(int n, float a[n], float x, float result)
 {
-    printf("The polynomial evaluated at x=%.2f is %.2f\n",x,result);
+    printf("\nThe polynomial is:\n");
+    for(int i=0;i<=n;i++)
+    {
+        if(i<n)
+        {
+            printf("%.2fx^%d +",a[i],n-i);
+        }
+        else
+        {
+            printf("%.2f\n",a[i]);
+        }
+    }
+    printf("The result of the polynomial at x=%.2f is: %.2f\n",x,result);
 }
+
+

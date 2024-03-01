@@ -115,3 +115,163 @@ $1 = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 
 $2 = 2
 +p j
 $3 = 4
++n
+38	            for(int j=i*2;j<=n;j=j+i)
++n
+40	                a[j]=0;
++n
+38	            for(int j=i*2;j<=n;j=j+i)
++p i 
+$4 = 2
++p j
+$5 = 6
++n
+40	                a[j]=0;
++n
+38	            for(int j=i*2;j<=n;j=j+i)
++n
+40	                a[j]=0;
++n
+38	            for(int j=i*2;j<=n;j=j+i)
++p i
+$6 = 2
++p j
+$7 = 10
++n
+40	
++n
+38	
++n
+40	
++p i
+$8 = 2
++p j
+$9 = 14
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++p j
+$10 = 26
++n
+40	
++n
+38	
++n
+40	
++p j
+$11 = 30
++n
+38	
++n
+34	
++n
+36	
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++p j
+$12 = 9
++n
+38	
++p j
+$13 = 9
++n
+40	
++n
+38	
++n
+40	
++p j
+$14 = 15
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++p j
+$15 = 21
++p i
+$16 = 3
++n
+38	
++n
+40	
++n
+38	
++n
+40	
++n
+38	
++p i
+$17 = 3
++p j
+$18 = 27
++n
+40	
++n
+38	
++n
+34	
++p i
+$19 = 3
++p j
+No symbol "j" in current context.
++p j
+No symbol "j" in current context.
++n
+36	
++n
+34	
++n
+36	
++n
+38	
++n
+40	
++n
+38	
++p i
+$20 = 5
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/12/2024, 12:46:45 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 11316] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

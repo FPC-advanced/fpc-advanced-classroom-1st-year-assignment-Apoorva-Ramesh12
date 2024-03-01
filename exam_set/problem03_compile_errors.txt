@@ -1,0 +1,253 @@
+Compilation started at 2/16/2024, 11:41:36 AM
+C:\Users\AP\AppData\Local\Temp\ccknYw8G.o: In function `main':
+c:/Users/AP/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12/exam_set/problem03.c:45: undefined reference to `compare_fritacoles'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/16/2024, 11:41:37 AM
+Compilation started at 2/20/2024, 2:46:41 PM
+Compilation finished at 2/20/2024, 2:46:41 PM
+Compilation started at 2/20/2024, 3:13:46 PM
+Compilation finished at 2/20/2024, 3:13:47 PM
+Compilation started at 2/26/2024, 11:46:08 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:221:25: warning: passing argument 3 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n,player_id,&g1,&g2,a,b);
+                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:121:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n,int player_id, game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:221:29: warning: passing argument 4 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n,player_id,&g1,&g2,a,b);
+                             ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:121:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n,int player_id, game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:228:24: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n,player_id,&g1,&g2,a,b);
+                        ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:142:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n,int player_id,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:228:28: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n,player_id,&g1,&g2,a,b);
+                            ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:142:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n,int player_id,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:232:20: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n,&g1,&g2,a,b);
+                    ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:163:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:232:24: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n,&g1,&g2,a,b);
+                        ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:163:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/26/2024, 11:46:08 PM
+Compilation started at 2/26/2024, 11:48:02 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:218:25: warning: passing argument 3 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n,player_id,&g1,&g2,a,b);
+                         ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:118:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n,int player_id, game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:218:29: warning: passing argument 4 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n,player_id,&g1,&g2,a,b);
+                             ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:118:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n,int player_id, game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:24: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n,player_id,&g1,&g2,a,b);
+                        ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:139:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n,int player_id,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:28: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n,player_id,&g1,&g2,a,b);
+                            ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:139:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n,int player_id,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:20: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n,&g1,&g2,a,b);
+                    ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:24: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n,&g1,&g2,a,b);
+                        ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n,game g1[n],game g2[n],team a[n],team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/26/2024, 11:48:03 PM
+Compilation started at 2/27/2024, 12:04:18 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:224:27: warning: passing argument 3 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                           ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:126:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:224:32: warning: passing argument 4 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                                ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:126:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:231:26: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:146:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:231:31: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                               ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:146:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:235:21: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:166:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:235:26: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:166:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/27/2024, 12:04:18 AM
+Compilation started at 2/27/2024, 12:06:16 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:223:27: warning: passing argument 3 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                           ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:125:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:223:32: warning: passing argument 4 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                                ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:125:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:230:26: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:145:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:230:31: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                               ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:145:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:234:21: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:165:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:234:26: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:165:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/27/2024, 12:06:16 AM
+Compilation started at 2/27/2024, 12:11:55 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:218:27: warning: passing argument 3 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                           ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:120:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:218:32: warning: passing argument 4 of 'point' from incompatible pointer type [-Wincompatible-pointer-types]
+       point(n, player_id, &g1, &g2, a, b);
+                                ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:120:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void point(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:26: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:140:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:31: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                               ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:140:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:21: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:26: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/27/2024, 12:11:55 AM
+Compilation started at 2/27/2024, 12:13:09 AM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c: In function 'run_game':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:26: warning: passing argument 3 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:140:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:225:31: warning: passing argument 4 of 'foul' from incompatible pointer type [-Wincompatible-pointer-types]
+       foul(n, player_id, &g1, &g2, a, b);
+                               ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:140:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void foul(int n, int player_id, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:21: warning: passing argument 2 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                     ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:229:26: warning: passing argument 3 of 'verify_win' from incompatible pointer type [-Wincompatible-pointer-types]
+       verify_win(n, &g1, &g2, a, b);
+                          ^
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.c:160:6: note: expected 'game * {aka struct game *}' but argument is of type 'game ** {aka struct game **}'
+ void verify_win(int n, game g1[n], game g2[n], team a[n], team b[n])
+      ^~~~~~~~~~
+Compilation finished at 2/27/2024, 12:13:10 AM
+Compilation started at 2/27/2024, 12:14:43 AM
+Compilation finished at 2/27/2024, 12:14:44 AM
+Compilation started at 2/27/2024, 12:19:10 AM
+Compilation finished at 2/27/2024, 12:19:10 AM
+Compilation started at 2/27/2024, 1:26:09 PM
+Compilation finished at 2/27/2024, 1:26:10 PM
+Compilation started at 2/28/2024, 3:19:41 PM
+Compilation finished at 2/28/2024, 3:19:41 PM
+Compilation started at 2/29/2024, 4:38:40 PM
+Compilation finished at 2/29/2024, 4:38:41 PM
+Compilation started at 2/29/2024, 4:46:18 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/29/2024, 4:46:19 PM
+Compilation started at 2/29/2024, 4:46:27 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\exam_set\problem03.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/29/2024, 4:46:27 PM
+Compilation started at 2/29/2024, 4:46:55 PM
+Compilation finished at 2/29/2024, 4:46:56 PM
+Compilation started at 2/29/2024, 4:47:06 PM
+Compilation finished at 2/29/2024, 4:47:06 PM

@@ -42,7 +42,8 @@ float odd_average(int n, int a[n])
             count++;
         }
     }
-    return (float) sum/count;
+    avg=sum/count;
+    return avg;
 }
 void output(float avg)
 {

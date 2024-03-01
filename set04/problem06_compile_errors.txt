@@ -1,0 +1,20 @@
+Compilation started at 2/20/2024, 2:02:32 PM
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem06.c: In function 'count_words':
+c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem06.c:20:9: warning: implicit declaration of function 'strtok' [-Wimplicit-function-declaration]
+         strtok(string," ");
+         ^~~~~~
+Compilation finished at 2/20/2024, 2:02:33 PM
+Compilation started at 2/20/2024, 2:03:40 PM
+Compilation finished at 2/20/2024, 2:03:40 PM
+Compilation started at 2/20/2024, 2:06:40 PM
+Compilation finished at 2/20/2024, 2:06:40 PM
+Compilation started at 2/20/2024, 2:08:32 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AP\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Apoorva-Ramesh12\set04\problem06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/20/2024, 2:08:32 PM
+Compilation started at 2/20/2024, 2:23:32 PM
+Compilation finished at 2/20/2024, 2:23:32 PM
+Compilation started at 2/20/2024, 2:24:54 PM
+Compilation finished at 2/20/2024, 2:24:55 PM
+Compilation started at 2/20/2024, 2:35:43 PM
+Compilation finished at 2/20/2024, 2:35:43 PM
